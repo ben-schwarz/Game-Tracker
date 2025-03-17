@@ -1,21 +1,35 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { API_BASE_URL } from "../config";
+
+
 
 function CreateAccount() {
   const navigate = useNavigate();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleCreateAccount = (e) => {
+  const handleCreateAccount = async (e) => {
     e.preventDefault();
 
-    // Save user credentials (for demonstration, using localStorage)
-    if (username && password) {
-      localStorage.setItem("user_" + username, password); // Store user data
-      alert("Account created successfully!");
-      navigate("/signin"); // Redirect to Sign-In page
-    } else {
-      alert("Please fill in all fields.");
+    try {
+      const response = await fetch(`${API_BASE_URL}/register`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username, password }),
+      });
+  
+      const data = await response.text();
+  
+      if (response.ok) {
+        alert("Account created successfully!");
+        navigate("/sign-in");
+      } else {
+        alert(data || "Failed to create account");
+      }
+    } catch (error) {
+      console.error("Registration error:", error);
+      alert("An error occurred. Please try again.");
     }
   };
 

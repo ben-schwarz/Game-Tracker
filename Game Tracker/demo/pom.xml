@@ -85,7 +85,18 @@
      <artifactId>commons-math3</artifactId>
      <version>3.6.1</version>
    </dependency>
+
+   <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.33</version>  <!-- Add the version here -->
+    <scope>runtime</scope>
+</dependency>
+
  </dependencies>
+
+
+
 
  
 
