@@ -13,6 +13,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Collection;
+
 
 @RestController
 @RequestMapping("/api/users")
@@ -60,6 +62,11 @@ public class UserController {
         response.put("user", user);
 
         return ResponseEntity.ok(response);
+    }
+
+    @GetMapping("/users")
+    Collection<User> users() {
+        return userService.findAll();
     }
 
     // Add more endpoints as needed
