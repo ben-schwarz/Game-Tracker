@@ -5,6 +5,7 @@ import GameLibrary from './components/GameLibrary';
 import SteamSync from './components/SteamSync';
 import SignIn from './components/SignIn';
 import CreateAccount from './components/CreateAccount';
+import Admin from './components/Admin'
 import './App.css';
 
 const theme = createTheme({
@@ -33,6 +34,7 @@ function App() {
           {/* Protected Routes */}
           <Route path="/sync" element={isAuthenticated ? <SteamSync /> : <Navigate to="/signin" />} />
           <Route path="/library" element={isAuthenticated ? <GameLibrary /> : <Navigate to="/signin" />} />
+          <Route path="/Admin" element={isAuthenticated ? <Admin /> : <Navigate to="signin" />} />
 
           {/* Redirect Root to Sign-In or Library */}
           <Route path="/" element={<Navigate to={isAuthenticated ? "/library" : "/signin"} />} />

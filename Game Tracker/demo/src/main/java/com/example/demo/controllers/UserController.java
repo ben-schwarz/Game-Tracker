@@ -64,7 +64,7 @@ public class UserController {
         return ResponseEntity.ok(response);
     }
 
-    @GetMapping("/users")
+    @GetMapping("/all")
     Collection<User> users() {
         return userService.findAll();
     }
