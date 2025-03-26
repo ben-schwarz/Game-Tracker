@@ -21,6 +21,7 @@ function Admin() {
                 <tr>
                     <th scope="col">Id</th>
                     <th scope="col">Username</th>
+                    <th scope="col">Manage</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -32,6 +33,11 @@ function Admin() {
                             </TableCell>
                             <TableCell>
                                 {data.username}
+                            </TableCell>
+                            <TableCell>
+                                <button>
+                                    Delete
+                                </button>
                             </TableCell>
                         </tr>)
                 })}
