@@ -22,7 +22,7 @@ import java.util.Collection;
 public class UserController {
 
     private final UserService userService;
-     private final UserRepository userRepository;
+    private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 
     @Autowired
@@ -67,6 +67,13 @@ public class UserController {
     @GetMapping("/all")
     Collection<User> users() {
         return userService.findAll();
+    }
+
+    @DeleteMapping("/delete/{id}")
+    @ResponseBody
+    void deleteUserById(@PathVariable Long id) {
+        userService.deleteUserById(id);
+        return;
     }
 
     // Add more endpoints as needed
