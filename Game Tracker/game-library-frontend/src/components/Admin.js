@@ -1,6 +1,7 @@
 import {useEffect, useState} from 'react';
 import {API_ENDPOINT} from "../config";
 import axios from "axios";
+import {TableCell} from "@mui/material";
 function Admin() {
     const [users, setUsers] = useState([]);
 
@@ -12,20 +13,32 @@ function Admin() {
             .catch(error => console.error('Error fetching users:', error));
     }, []);
 
-    //console.log("Value of names" + users)
-
     return (
         <div className="App">
             <h1>Accounts</h1>
-            <ol className="list-group list-group-numbered">
-
+            <table align="center">
+                <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Username</th>
+                </tr>
+                </thead>
+                <tbody>
                 {users.map((data) => {
-                    return(
-                        <li className="list-group-item" key={data.id}> {data.username} </li>
-                    )
+                    return (
+                        <tr>
+                            <TableCell>
+                                {data.id}
+                            </TableCell>
+                            <TableCell>
+                                {data.username}
+                            </TableCell>
+                        </tr>)
                 })}
-            </ol>
+                </tbody>
+            </table>
         </div>
     );
 }
+
 export default Admin;
