@@ -1,28 +1,40 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
+import { useAuth } from './AuthContext'; // Import useAuth from the correct location
 
 function SignIn() {
   const navigate = useNavigate();
+  const { login } = useAuth(); // Destructure the login function from useAuth
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
 
-  const handleSignIn = (e) => {
+  const handleSignIn = async (e) => {
     e.preventDefault();
-
-    // Check credentials from localStorage
-    const storedPassword = localStorage.getItem("user_" + username);
-
-    if (storedPassword === password) {
-      localStorage.setItem("userToken", "example_token"); // Mock authentication
-      navigate("/library"); // Redirect to the library page
-    } else {
-      alert("Invalid username or password");
+  
+    try {
+      const response = await axios.post('http://localhost:8080/api/login', {
+        username,
+        password
+      });
+  
+      if (response.data.token) {
+        login(response.data.token); // Use the login method from context to set isAuthenticated and store the token
+        navigate("/library"); // Redirect to library page on successful login
+      } else {
+        setError("Login failed, please try again.");
+      }
+    } catch (err) {
+      console.error("Login error", err);
+      setError("Invalid username or password");
     }
   };
 
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h2>Sign In</h2>
+      {error && <p style={{ color: "red" }}>{error}</p>}
       <form onSubmit={handleSignIn}>
         <input
           type="text"
@@ -50,3 +62,5 @@ function SignIn() {
 }
 
 export default SignIn;
+
+
