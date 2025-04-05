@@ -1,3 +1,4 @@
+
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material';
 import Navbar from './components/Navbar';
@@ -7,17 +8,35 @@ import SignIn from './components/SignIn';
 import CreateAccount from './components/CreateAccount';
 import Admin from './components/Admin'
 import './App.css';
+import Settings from './components/Settings';
+
+const fontSizeMap = {
+  small: 12,
+  medium: 16,
+  large: 20,
+};
+
+const themeColorMap = {
+  blue: '#556cd6',
+  green: '#2e7d32',
+  red: '#d32f2f',
+  orange: '#ed6c02',
+  purple: '#7e57c2',
+};
+
+const userFontSize = localStorage.getItem("fontSize") || "medium";
+const userThemeColor = localStorage.getItem("themeColor") || "blue";
 
 const theme = createTheme({
   palette: {
-    primary: {
-      main: '#556cd6',
-    },
-    secondary: {
-      main: '#19857b',
-    },
+    primary: { main: themeColorMap[userThemeColor] },
+    secondary: { main: '#19857b' },
+  },
+  typography: {
+    fontSize: fontSizeMap[userFontSize],
   },
 });
+
 
 function App() {
   const isAuthenticated = localStorage.getItem("userToken"); // Check if user is logged in
@@ -41,6 +60,8 @@ function App() {
 
           {/* Catch-All: Redirect unknown routes to Sign-In */}
           <Route path="*" element={<Navigate to="/signin" />} />
+          <Route path="/settings" element={isAuthenticated ? <Settings /> : <Navigate to="/signin" />} />
+
         </Routes>
       </Router>
     </ThemeProvider>
