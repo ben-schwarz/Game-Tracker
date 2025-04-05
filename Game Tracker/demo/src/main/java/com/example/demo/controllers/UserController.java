@@ -69,7 +69,7 @@ public class UserController {
         return userService.findAll();
     }
 
-    @DeleteMapping("/delete/{id}")
+    @DeleteMapping("/{id}")
     @ResponseBody
     void deleteUserById(@PathVariable Long id) {
         userService.deleteUserById(id);

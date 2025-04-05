@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react';
-import {API_ENDPOINT} from "../config";
+import {API_BASE_URL, API_ENDPOINT} from "../config";
 import axios from "axios";
 import {TableCell} from "@mui/material";
 function Admin() {
@@ -12,6 +12,28 @@ function Admin() {
             })
             .catch(error => console.error('Error fetching users:', error));
     }, []);
+
+    const handleDelete = async (id) => {
+
+        try {
+            const response = await fetch(`${API_ENDPOINT}users/{id}`, {
+                method: "DELETE",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ id }),
+            });
+
+            const data = await response.text();
+
+            if (response.ok) {
+                alert("Account deleted successfully!");
+            } else {
+                alert(data || "Failed to delete account");
+            }
+        } catch (error) {
+            console.error("Deletion error:", error);
+            alert("An error occurred. Please try again.");
+        }
+    };
 
     return (
         <div className="App">
@@ -35,7 +57,7 @@ function Admin() {
                                 {data.username}
                             </TableCell>
                             <TableCell>
-                                <button>
+                                <button onClick={() => handleDelete(data.id)}>
                                     Delete
                                 </button>
                             </TableCell>
