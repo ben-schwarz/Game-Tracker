@@ -14,9 +14,9 @@ function Admin() {
     }, []);
 
     const handleDelete = async (id) => {
-
+        console.log(id);
         try {
-            const response = await fetch(`${API_ENDPOINT}users/{id}`, {
+            const response = await fetch(`${API_ENDPOINT}/users/`+id, {
                 method: "DELETE",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ id }),
@@ -26,6 +26,7 @@ function Admin() {
 
             if (response.ok) {
                 alert("Account deleted successfully!");
+                window.location.reload()
             } else {
                 alert(data || "Failed to delete account");
             }
