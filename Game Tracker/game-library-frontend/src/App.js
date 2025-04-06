@@ -7,7 +7,7 @@ import SteamSync from './components/SteamSync';
 import SignIn from './components/SignIn';
 import CreateAccount from './components/CreateAccount';
 import Admin from './components/Admin';
-import { AuthProvider, useAuth } from './components/AuthContext'; // Ensure this path is correct
+import {AuthProvider, useAuth } from './components/AuthContext'; // Ensure this path is correct
 
 import './App.css';
 
