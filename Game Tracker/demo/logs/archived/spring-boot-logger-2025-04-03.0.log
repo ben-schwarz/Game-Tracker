@@ -1,0 +1,594 @@
+2025-04-03 00:19:20,386 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-03 00:19:20,396 INFO o.s.b.w.e.t.GracefulShutdown [Thread-20] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03 00:19:20,397 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:19:20,400 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-03 00:19:20,401 INFO o.a.j.l.DirectJDKLog [Thread-20] Stopping ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:19:20,404 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-20] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 00:19:20,407 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-20] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-03 00:19:20,407 INFO c.z.h.HikariDataSource [Thread-20] HikariPool-5 - Shutdown initiated...
+2025-04-03 00:19:20,408 INFO c.z.h.HikariDataSource [Thread-20] HikariPool-5 - Shutdown completed.
+2025-04-03 00:19:20,473 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.1 with PID 92779 (/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes started by bryanpisciotti in /Users/bryanpisciotti/Game-Tracker/Game Tracker/demo)
+2025-04-03 00:19:20,473 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-03 00:19:20,474 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-03 00:19:20,540 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03 00:19:20,544 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+2025-04-03 00:19:20,617 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-03 00:19:20,618 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:19:20,618 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-03 00:19:20,618 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-03 00:19:20,623 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-03 00:19:20,624 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 149 ms
+2025-04-03 00:19:20,649 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03 00:19:20,650 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-03 00:19:20,655 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03 00:19:20,656 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2025-04-03 00:19:20,658 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-6 - Added connection conn54: url=jdbc:h2:mem:testdb user=SA
+2025-04-03 00:19:20,658 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2025-04-03 00:19:20,659 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03 00:19:20,659 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03 00:19:20,709 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03 00:19:20,711 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 00:19:20,761 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03 00:19:20,765 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Found 2 UserDetailsService beans, with names [userService, userDetailsManager]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-04-03 00:19:20,765 DEBUG o.s.s.c.a.a.b.AuthenticationManagerBuilder [restartedMain] No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-04-03 00:19:20,805 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-03 00:19:20,809 INFO o.s.s.p.JdbcUserDetailsManager [restartedMain] No authentication manager set. Reauthentication of users when changing passwords will not be performed.
+2025-04-03 00:19:20,837 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-03 00:19:20,845 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-03 00:19:20,849 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:19:20,851 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-03 00:19:20,853 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 0.392 seconds (process running for 4755.97)
+2025-04-03 00:19:20,853 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-04-03 00:19:34,917 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-03 00:19:34,917 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-04-03 00:19:34,918 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-04-03 00:19:34,919 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /api/users/register
+2025-04-03 00:19:34,923 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing POST /api/users/register
+2025-04-03 00:19:34,924 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured POST /api/users/register
+2025-04-03 00:19:34,932 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/users/register.]
+2025-04-03 00:19:34,933 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-03 00:19:57,599 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-03 00:19:57,600 INFO o.s.b.w.e.t.GracefulShutdown [Thread-24] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03 00:19:57,600 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:19:57,603 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-03 00:19:57,603 INFO o.a.j.l.DirectJDKLog [Thread-24] Stopping ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:19:57,604 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-24] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 00:19:57,605 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-24] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-03 00:19:57,605 INFO c.z.h.HikariDataSource [Thread-24] HikariPool-6 - Shutdown initiated...
+2025-04-03 00:19:57,605 INFO c.z.h.HikariDataSource [Thread-24] HikariPool-6 - Shutdown completed.
+2025-04-03 00:19:57,655 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.1 with PID 92779 (/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes started by bryanpisciotti in /Users/bryanpisciotti/Game-Tracker/Game Tracker/demo)
+2025-04-03 00:19:57,656 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-03 00:19:57,656 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-03 00:19:57,724 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03 00:19:57,728 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+2025-04-03 00:19:57,797 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-03 00:19:57,798 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:19:57,798 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-03 00:19:57,798 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-03 00:19:57,802 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-03 00:19:57,802 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 146 ms
+2025-04-03 00:19:57,821 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03 00:19:57,822 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-03 00:19:57,826 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03 00:19:57,826 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+2025-04-03 00:19:57,827 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-7 - Added connection conn64: url=jdbc:h2:mem:testdb user=SA
+2025-04-03 00:19:57,827 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+2025-04-03 00:19:57,828 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03 00:19:57,828 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03 00:19:57,862 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03 00:19:57,864 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 00:19:57,910 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03 00:19:57,914 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Found 2 UserDetailsService beans, with names [userService, userDetailsManager]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-04-03 00:19:57,914 DEBUG o.s.s.c.a.a.b.AuthenticationManagerBuilder [restartedMain] No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-04-03 00:19:57,953 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-03 00:19:57,956 INFO o.s.s.p.JdbcUserDetailsManager [restartedMain] No authentication manager set. Reauthentication of users when changing passwords will not be performed.
+2025-04-03 00:19:57,981 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-03 00:19:57,987 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-03 00:19:57,992 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:19:57,992 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-03 00:19:57,995 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 0.351 seconds (process running for 4793.113)
+2025-04-03 00:19:57,995 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-04-03 00:20:02,455 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-03 00:20:02,455 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-04-03 00:20:02,457 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2025-04-03 00:20:02,458 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /api/users/register
+2025-04-03 00:20:02,461 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing POST /api/users/register
+2025-04-03 00:20:02,462 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured POST /api/users/register
+2025-04-03 00:20:02,596 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-03 00:20:11,854 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /api/login
+2025-04-03 00:30:40,688 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-03 00:30:40,691 INFO o.s.b.w.e.t.GracefulShutdown [Thread-28] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03 00:30:40,692 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:30:40,694 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-03 00:30:40,694 INFO o.a.j.l.DirectJDKLog [Thread-28] Stopping ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:30:40,696 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-28] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 00:30:40,698 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-28] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-03 00:30:40,698 INFO c.z.h.HikariDataSource [Thread-28] HikariPool-7 - Shutdown initiated...
+2025-04-03 00:30:40,699 INFO c.z.h.HikariDataSource [Thread-28] HikariPool-7 - Shutdown completed.
+2025-04-03 00:30:40,768 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.1 with PID 92779 (/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes started by bryanpisciotti in /Users/bryanpisciotti/Game-Tracker/Game Tracker/demo)
+2025-04-03 00:30:40,769 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-03 00:30:40,769 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-03 00:30:40,838 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03 00:30:40,841 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+2025-04-03 00:30:40,929 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-03 00:30:40,930 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:30:40,930 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-03 00:30:40,930 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-03 00:30:40,935 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-03 00:30:40,935 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 165 ms
+2025-04-03 00:30:40,957 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03 00:30:40,958 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-03 00:30:40,962 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03 00:30:40,962 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2025-04-03 00:30:40,963 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-8 - Added connection conn74: url=jdbc:h2:mem:testdb user=SA
+2025-04-03 00:30:40,963 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2025-04-03 00:30:40,964 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03 00:30:40,964 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03 00:30:41,008 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03 00:30:41,010 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 00:30:41,063 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03 00:30:41,068 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Found 2 UserDetailsService beans, with names [userService, userDetailsManager]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-04-03 00:30:41,068 DEBUG o.s.s.c.a.a.b.AuthenticationManagerBuilder [restartedMain] No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-04-03 00:30:41,122 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-03 00:30:41,126 INFO o.s.s.p.JdbcUserDetailsManager [restartedMain] No authentication manager set. Reauthentication of users when changing passwords will not be performed.
+2025-04-03 00:30:41,162 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-03 00:30:41,172 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-03 00:30:41,177 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:30:41,178 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-03 00:30:41,181 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 0.427 seconds (process running for 5436.318)
+2025-04-03 00:30:41,181 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-04-03 00:31:08,629 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-03 00:31:08,630 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-04-03 00:31:08,633 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2025-04-03 00:31:08,635 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /api/users/register
+2025-04-03 00:31:08,640 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing POST /api/users/register
+2025-04-03 00:31:08,642 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured POST /api/users/register
+2025-04-03 00:31:08,772 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-03 00:31:18,230 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /api/login
+2025-04-03 00:40:11,186 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-04-03 00:40:11,189 INFO o.s.b.w.e.t.GracefulShutdown [Thread-32] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03 00:40:11,190 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:40:11,193 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-03 00:40:11,193 INFO o.a.j.l.DirectJDKLog [Thread-32] Stopping ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:40:11,195 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-32] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 00:40:11,197 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-32] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-03 00:40:11,197 INFO c.z.h.HikariDataSource [Thread-32] HikariPool-8 - Shutdown initiated...
+2025-04-03 00:40:11,198 INFO c.z.h.HikariDataSource [Thread-32] HikariPool-8 - Shutdown completed.
+2025-04-03 00:40:11,263 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.1 with PID 92779 (/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes started by bryanpisciotti in /Users/bryanpisciotti/Game-Tracker/Game Tracker/demo)
+2025-04-03 00:40:11,263 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-03 00:40:11,263 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-03 00:40:11,327 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03 00:40:11,330 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 2 JPA repository interfaces.
+2025-04-03 00:40:11,417 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-03 00:40:11,418 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:40:11,418 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-03 00:40:11,418 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-03 00:40:11,423 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-03 00:40:11,423 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 159 ms
+2025-04-03 00:40:11,444 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03 00:40:11,445 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-03 00:40:11,449 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03 00:40:11,450 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-9 - Starting...
+2025-04-03 00:40:11,451 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-9 - Added connection conn84: url=jdbc:h2:mem:testdb user=SA
+2025-04-03 00:40:11,451 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-9 - Start completed.
+2025-04-03 00:40:11,452 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03 00:40:11,452 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-9)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03 00:40:11,500 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03 00:40:11,502 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 00:40:11,559 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03 00:40:11,578 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-03 00:40:11,578 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-03 00:40:11,621 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-03 00:40:11,654 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-03 00:40:11,663 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-03 00:40:11,667 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:40:11,668 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-03 00:40:11,671 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 0.423 seconds (process running for 6006.781)
+2025-04-03 00:40:11,671 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-04-03 00:40:21,682 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-03 00:40:21,682 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-04-03 00:40:21,684 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2025-04-03 00:40:21,684 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /api/users/register
+2025-04-03 00:40:21,688 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing POST /api/users/register
+2025-04-03 00:40:21,688 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured POST /api/users/register
+2025-04-03 00:40:21,794 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-03 00:40:31,184 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /api/login
+2025-04-03 00:40:31,416 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-3] Authenticated user
+2025-04-03 00:40:31,417 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-3] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@14fec419, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@14d9a583]
+2025-04-03 00:40:31,417 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-3] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@14fec419, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]
+2025-04-03 00:40:31,432 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /api/games
+2025-04-03 00:40:31,433 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-03 00:40:31,434 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-4] Redirecting to http://localhost:8080/login
+2025-04-03 00:40:31,437 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /login
+2025-04-03 00:41:43,993 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-03 00:41:43,995 INFO o.s.b.w.e.t.GracefulShutdown [Thread-36] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03 00:41:43,995 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:41:43,998 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-03 00:41:43,999 INFO o.a.j.l.DirectJDKLog [Thread-36] Stopping ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:41:44,001 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-36] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 00:41:44,002 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-36] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-03 00:41:44,002 INFO c.z.h.HikariDataSource [Thread-36] HikariPool-9 - Shutdown initiated...
+2025-04-03 00:41:44,002 INFO c.z.h.HikariDataSource [Thread-36] HikariPool-9 - Shutdown completed.
+2025-04-03 00:41:44,066 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.1 with PID 92779 (/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes started by bryanpisciotti in /Users/bryanpisciotti/Game-Tracker/Game Tracker/demo)
+2025-04-03 00:41:44,066 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-03 00:41:44,066 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-03 00:41:44,122 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03 00:41:44,125 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 2 JPA repository interfaces.
+2025-04-03 00:41:44,191 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-03 00:41:44,191 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:41:44,191 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-03 00:41:44,191 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-03 00:41:44,196 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-03 00:41:44,196 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 129 ms
+2025-04-03 00:41:44,215 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03 00:41:44,216 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-03 00:41:44,220 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03 00:41:44,220 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-10 - Starting...
+2025-04-03 00:41:44,221 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-10 - Added connection conn94: url=jdbc:h2:mem:testdb user=SA
+2025-04-03 00:41:44,221 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-10 - Start completed.
+2025-04-03 00:41:44,221 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03 00:41:44,221 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-10)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03 00:41:44,260 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03 00:41:44,262 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 00:41:44,308 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03 00:41:44,313 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-03 00:41:44,313 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-03 00:41:44,351 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-03 00:41:44,378 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-03 00:41:44,385 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-03 00:41:44,390 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:41:44,391 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-03 00:41:44,393 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 0.338 seconds (process running for 6099.505)
+2025-04-03 00:41:44,393 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-04-03 00:41:48,345 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-03 00:41:48,345 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-04-03 00:41:48,347 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2025-04-03 00:41:48,349 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/games
+2025-04-03 00:41:48,351 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-03 00:41:48,353 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-03 00:41:48,361 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /login
+2025-04-03 00:41:54,578 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing OPTIONS /api/users/register
+2025-04-03 00:41:54,581 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing POST /api/users/register
+2025-04-03 00:41:54,582 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured POST /api/users/register
+2025-04-03 00:41:54,722 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-03 00:42:29,652 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /api/login
+2025-04-03 00:42:29,880 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-5] Authenticated user
+2025-04-03 00:42:29,881 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-5] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@726fe37d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@327f88dc]
+2025-04-03 00:42:29,881 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-5] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@726fe37d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]
+2025-04-03 00:42:29,897 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/games
+2025-04-03 00:42:29,897 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-03 00:42:29,897 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-6] Redirecting to http://localhost:8080/login
+2025-04-03 00:42:29,900 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /login
+2025-04-03 00:44:10,371 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/games
+2025-04-03 00:44:10,373 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-03 00:44:10,374 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-9] Redirecting to http://localhost:8080/login
+2025-04-03 00:44:10,378 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /login
+2025-04-03 00:46:45,289 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/games
+2025-04-03 00:46:45,291 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-03 00:46:45,292 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-2] Redirecting to http://localhost:8080/login
+2025-04-03 00:46:45,295 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /login
+2025-04-03 00:50:07,199 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/games
+2025-04-03 00:50:07,201 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-03 00:50:07,202 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-5] Redirecting to http://localhost:8080/login
+2025-04-03 00:50:07,210 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-03 00:50:18,347 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing POST /api/login
+2025-04-03 00:50:18,486 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-7] Authenticated user
+2025-04-03 00:50:18,487 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-7] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@3d9d5e01, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@337fd256]
+2025-04-03 00:50:18,487 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-7] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@3d9d5e01, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]
+2025-04-03 00:50:34,823 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /h2-console/query.do?jsessionid=3a725dddccd33759fef3ffdd3655ecaa
+2025-04-03 00:50:34,824 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured POST /h2-console/query.do?jsessionid=3a725dddccd33759fef3ffdd3655ecaa
+2025-04-03 00:50:34,929 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/stylesheet.css
+2025-04-03 00:50:34,929 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/stylesheet.css
+2025-04-03 00:50:34,936 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/login.jsp?jsessionid=24b111d0e89723da10b26d0da2cb9d18
+2025-04-03 00:50:34,937 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/login.jsp?jsessionid=24b111d0e89723da10b26d0da2cb9d18
+2025-04-03 00:50:35,008 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/background.gif
+2025-04-03 00:50:35,009 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/background.gif
+2025-04-03 00:50:35,013 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/login.jsp
+2025-04-03 00:50:35,014 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/login.jsp
+2025-04-03 00:50:35,077 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/login.jsp?jsessionid=f289edf4dc78bc57d4ddd546b451cf8c
+2025-04-03 00:50:35,077 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/login.jsp?jsessionid=f289edf4dc78bc57d4ddd546b451cf8c
+2025-04-03 00:50:35,137 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/background.gif
+2025-04-03 00:50:35,137 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/background.gif
+2025-04-03 00:50:40,936 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /h2-console/login.do?jsessionid=f289edf4dc78bc57d4ddd546b451cf8c
+2025-04-03 00:50:40,937 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured POST /h2-console/login.do?jsessionid=f289edf4dc78bc57d4ddd546b451cf8c
+2025-04-03 00:50:41,428 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/header.jsp?jsessionid=f289edf4dc78bc57d4ddd546b451cf8c
+2025-04-03 00:50:41,429 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/header.jsp?jsessionid=f289edf4dc78bc57d4ddd546b451cf8c
+2025-04-03 00:50:41,432 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/tables.do?jsessionid=f289edf4dc78bc57d4ddd546b451cf8c
+2025-04-03 00:50:41,432 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/tables.do?jsessionid=f289edf4dc78bc57d4ddd546b451cf8c
+2025-04-03 00:50:41,433 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/query.jsp?jsessionid=f289edf4dc78bc57d4ddd546b451cf8c
+2025-04-03 00:50:41,432 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/help.jsp?jsessionid=f289edf4dc78bc57d4ddd546b451cf8c
+2025-04-03 00:50:41,433 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/query.jsp?jsessionid=f289edf4dc78bc57d4ddd546b451cf8c
+2025-04-03 00:50:41,433 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/help.jsp?jsessionid=f289edf4dc78bc57d4ddd546b451cf8c
+2025-04-03 00:50:41,489 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/icon_disconnect.gif
+2025-04-03 00:50:41,490 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/icon_run.gif
+2025-04-03 00:50:41,490 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/icon_disconnect.gif
+2025-04-03 00:50:41,489 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/icon_commit.gif
+2025-04-03 00:50:41,490 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/icon_rollback.gif
+2025-04-03 00:50:41,490 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/icon_rollback.gif
+2025-04-03 00:50:41,490 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/icon_run.gif
+2025-04-03 00:50:41,490 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/icon_commit.gif
+2025-04-03 00:50:41,492 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/icon_stop.gif
+2025-04-03 00:50:41,492 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/icon_line.gif
+2025-04-03 00:50:41,492 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/icon_stop.gif
+2025-04-03 00:50:41,493 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/icon_run_selected.gif
+2025-04-03 00:50:41,493 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/icon_line.gif
+2025-04-03 00:50:41,493 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/icon_run_selected.gif
+2025-04-03 00:50:41,493 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/icon_history.gif
+2025-04-03 00:50:41,493 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/icon_history.gif
+2025-04-03 00:50:41,493 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/icon_help.gif
+2025-04-03 00:50:41,493 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/icon_help.gif
+2025-04-03 00:50:41,494 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/icon_refresh.gif
+2025-04-03 00:50:41,494 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/icon_refresh.gif
+2025-04-03 00:50:41,884 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/tree.js
+2025-04-03 00:50:41,885 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/tree.js
+2025-04-03 00:50:41,922 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/tree_table.gif
+2025-04-03 00:50:41,922 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/tree_plus.gif
+2025-04-03 00:50:41,922 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/tree_plus.gif
+2025-04-03 00:50:41,922 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/tree_database.gif
+2025-04-03 00:50:41,922 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/tree_empty.gif
+2025-04-03 00:50:41,923 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/tree_minus.gif
+2025-04-03 00:50:41,923 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/tree_table.gif
+2025-04-03 00:50:41,923 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/tree_empty.gif
+2025-04-03 00:50:41,925 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/tree_column.gif
+2025-04-03 00:50:41,925 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/tree_column.gif
+2025-04-03 00:50:41,923 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/tree_minus.gif
+2025-04-03 00:50:41,926 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/tree_index.gif
+2025-04-03 00:50:41,926 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/tree_index.gif
+2025-04-03 00:50:41,924 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/tree_database.gif
+2025-04-03 00:50:41,926 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/tree_index_az.gif
+2025-04-03 00:50:41,926 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/tree_index_az.gif
+2025-04-03 00:50:41,926 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/tree_type.gif
+2025-04-03 00:50:41,927 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/tree_type.gif
+2025-04-03 00:50:41,929 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/tree_view.gif
+2025-04-03 00:50:41,929 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/tree_users.gif
+2025-04-03 00:50:41,929 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/tree_view.gif
+2025-04-03 00:50:41,929 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/tree_users.gif
+2025-04-03 00:50:41,929 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/tree_folder.gif
+2025-04-03 00:50:41,929 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/tree_user.gif
+2025-04-03 00:50:41,929 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/tree_folder.gif
+2025-04-03 00:50:41,930 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/tree_user.gif
+2025-04-03 00:50:41,930 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/tree_info.gif
+2025-04-03 00:50:41,930 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/tree_info.gif
+2025-04-03 00:50:53,257 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing POST /h2-console/query.do?jsessionid=f289edf4dc78bc57d4ddd546b451cf8c
+2025-04-03 00:50:53,258 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured POST /h2-console/query.do?jsessionid=f289edf4dc78bc57d4ddd546b451cf8c
+2025-04-03 00:50:53,340 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/table.js
+2025-04-03 00:50:53,340 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/stylesheet.css
+2025-04-03 00:50:53,340 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/table.js
+2025-04-03 00:50:53,340 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/stylesheet.css
+2025-04-03 00:51:13,106 INFO o.s.b.w.e.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03 00:51:13,111 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-03 00:51:13,115 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 00:51:13,117 WARN o.s.b.f.s.DisposableBeanAdapter [SpringApplicationShutdownHook] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-03 00:51:13,118 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-10 - Shutdown initiated...
+2025-04-03 00:51:13,118 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-10 - Shutdown completed.
+2025-04-03 00:51:43,160 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-04-03 00:51:43,184 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.1 with PID 473 (/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes started by bryanpisciotti in /Users/bryanpisciotti/Game-Tracker/Game Tracker/demo)
+2025-04-03 00:51:43,184 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-03 00:51:43,185 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-03 00:51:43,206 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-03 00:51:43,206 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-03 00:51:43,433 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03 00:51:43,454 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2025-04-03 00:51:43,818 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-03 00:51:43,825 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:51:43,826 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-03 00:51:43,827 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-03 00:51:43,848 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-03 00:51:43,849 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 643 ms
+2025-04-03 00:51:43,956 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03 00:51:43,979 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-03 00:51:43,999 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-03 00:51:44,107 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03 00:51:44,119 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-04-03 00:51:44,196 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-04-03 00:51:44,197 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-04-03 00:51:44,209 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03 00:51:44,217 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03 00:51:44,594 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03 00:51:44,622 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 00:51:44,814 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03 00:51:44,833 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-03 00:51:44,833 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-03 00:51:44,959 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-03 00:51:45,048 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-03 00:51:45,077 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-03 00:51:45,086 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-03 00:51:45,093 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-03 00:51:45,099 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 2.121 seconds (process running for 2.286)
+2025-04-03 00:51:49,356 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/login.jsp?jsessionid=f289edf4dc78bc57d4ddd546b451cf8c
+2025-04-03 00:51:49,363 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/login.jsp?jsessionid=f289edf4dc78bc57d4ddd546b451cf8c
+2025-04-03 00:51:49,452 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/stylesheet.css
+2025-04-03 00:51:49,452 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/stylesheet.css
+2025-04-03 00:51:49,466 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/login.jsp?jsessionid=6b8d865ca59a64642c39f51568b33913
+2025-04-03 00:51:49,466 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/login.jsp?jsessionid=6b8d865ca59a64642c39f51568b33913
+2025-04-03 00:51:49,532 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/background.gif
+2025-04-03 00:51:49,532 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/background.gif
+2025-04-03 00:51:57,421 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /h2-console/login.do?jsessionid=6b8d865ca59a64642c39f51568b33913
+2025-04-03 00:51:57,424 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured POST /h2-console/login.do?jsessionid=6b8d865ca59a64642c39f51568b33913
+2025-04-03 00:51:57,936 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/header.jsp?jsessionid=6b8d865ca59a64642c39f51568b33913
+2025-04-03 00:51:57,937 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/header.jsp?jsessionid=6b8d865ca59a64642c39f51568b33913
+2025-04-03 00:51:57,940 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/query.jsp?jsessionid=6b8d865ca59a64642c39f51568b33913
+2025-04-03 00:51:57,940 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/tables.do?jsessionid=6b8d865ca59a64642c39f51568b33913
+2025-04-03 00:51:57,941 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/help.jsp?jsessionid=6b8d865ca59a64642c39f51568b33913
+2025-04-03 00:51:57,941 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/query.jsp?jsessionid=6b8d865ca59a64642c39f51568b33913
+2025-04-03 00:51:57,941 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/tables.do?jsessionid=6b8d865ca59a64642c39f51568b33913
+2025-04-03 00:51:57,941 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/help.jsp?jsessionid=6b8d865ca59a64642c39f51568b33913
+2025-04-03 00:51:57,998 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/icon_disconnect.gif
+2025-04-03 00:51:57,999 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/icon_commit.gif
+2025-04-03 00:51:57,999 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/icon_refresh.gif
+2025-04-03 00:51:57,999 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/icon_refresh.gif
+2025-04-03 00:51:57,999 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/icon_commit.gif
+2025-04-03 00:51:58,000 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/icon_disconnect.gif
+2025-04-03 00:51:58,002 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/icon_rollback.gif
+2025-04-03 00:51:58,002 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/icon_rollback.gif
+2025-04-03 00:51:58,003 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/icon_run_selected.gif
+2025-04-03 00:51:58,003 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/icon_run_selected.gif
+2025-04-03 00:51:58,004 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/icon_line.gif
+2025-04-03 00:51:58,004 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/icon_run.gif
+2025-04-03 00:51:58,004 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/icon_line.gif
+2025-04-03 00:51:58,004 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/icon_help.gif
+2025-04-03 00:51:58,005 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/icon_run.gif
+2025-04-03 00:51:58,005 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/icon_help.gif
+2025-04-03 00:51:58,005 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/icon_stop.gif
+2025-04-03 00:51:58,006 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/icon_stop.gif
+2025-04-03 00:51:58,007 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/icon_history.gif
+2025-04-03 00:51:58,008 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/icon_history.gif
+2025-04-03 00:51:58,399 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/tree.js
+2025-04-03 00:51:58,399 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/tree.js
+2025-04-03 00:51:58,423 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/tree_plus.gif
+2025-04-03 00:51:58,424 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/tree_plus.gif
+2025-04-03 00:51:58,425 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/tree_table.gif
+2025-04-03 00:51:58,425 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/tree_table.gif
+2025-04-03 00:51:58,426 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/tree_minus.gif
+2025-04-03 00:51:58,426 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/tree_minus.gif
+2025-04-03 00:51:58,423 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/tree_database.gif
+2025-04-03 00:51:58,423 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/tree_column.gif
+2025-04-03 00:51:58,430 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/tree_index.gif
+2025-04-03 00:51:58,435 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/tree_column.gif
+2025-04-03 00:51:58,435 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/tree_database.gif
+2025-04-03 00:51:58,435 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/tree_index.gif
+2025-04-03 00:51:58,430 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/tree_empty.gif
+2025-04-03 00:51:58,436 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/tree_empty.gif
+2025-04-03 00:51:58,432 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/tree_type.gif
+2025-04-03 00:51:58,439 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/tree_index_az.gif
+2025-04-03 00:51:58,439 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/tree_view.gif
+2025-04-03 00:51:58,440 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/tree_folder.gif
+2025-04-03 00:51:58,440 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/tree_view.gif
+2025-04-03 00:51:58,440 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/tree_folder.gif
+2025-04-03 00:51:58,439 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/tree_type.gif
+2025-04-03 00:51:58,440 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/tree_index_az.gif
+2025-04-03 00:51:58,445 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/tree_user.gif
+2025-04-03 00:51:58,445 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/tree_info.gif
+2025-04-03 00:51:58,446 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/tree_info.gif
+2025-04-03 00:51:58,446 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/tree_user.gif
+2025-04-03 00:51:58,448 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/tree_users.gif
+2025-04-03 00:51:58,449 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/tree_users.gif
+2025-04-03 00:52:01,479 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing POST /h2-console/query.do?jsessionid=6b8d865ca59a64642c39f51568b33913
+2025-04-03 00:52:01,480 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured POST /h2-console/query.do?jsessionid=6b8d865ca59a64642c39f51568b33913
+2025-04-03 00:52:01,557 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/table.js
+2025-04-03 00:52:01,557 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/stylesheet.css
+2025-04-03 00:52:01,559 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/table.js
+2025-04-03 00:52:01,559 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/stylesheet.css
+2025-04-03 00:52:15,399 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-03 00:52:15,400 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-9] Initializing Servlet 'dispatcherServlet'
+2025-04-03 00:52:15,404 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-9] Completed initialization in 4 ms
+2025-04-03 00:52:15,406 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing POST /api/login
+2025-04-03 00:52:15,702 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-9] Failed to find user 'test'
+2025-04-03 00:52:15,785 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-9] Failed to find user 'test'
+2025-04-03 00:53:08,628 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /api/games
+2025-04-03 00:53:08,631 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-03 00:53:08,633 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-4] Redirecting to http://localhost:8080/login
+2025-04-03 00:53:08,641 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /login
+2025-04-03 00:53:45,989 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/games
+2025-04-03 00:53:45,989 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-03 00:53:45,989 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-9] Redirecting to http://localhost:8080/login
+2025-04-03 00:53:45,992 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-03 00:53:59,027 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /api/login
+2025-04-03 00:53:59,154 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-8] Failed to find user 't'
+2025-04-03 00:53:59,238 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-8] Failed to find user 't'
+2025-04-03 00:54:09,145 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /api/users/register
+2025-04-03 00:54:09,150 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /api/users/register
+2025-04-03 00:54:09,152 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured POST /api/users/register
+2025-04-03 00:54:09,352 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-03 00:54:20,146 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /api/login
+2025-04-03 00:54:20,281 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-3] Authenticated user
+2025-04-03 00:54:20,288 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-3] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@2a3501fe, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@4642618e]
+2025-04-03 00:54:20,288 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-3] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@2a3501fe, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]
+2025-04-03 00:54:50,692 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/games
+2025-04-03 00:54:50,694 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-03 00:54:50,695 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-2] Redirecting to http://localhost:8080/login
+2025-04-03 00:54:50,700 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-03 00:55:04,157 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/games
+2025-04-03 00:55:04,159 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-03 00:55:04,160 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-5] Redirecting to http://localhost:8080/login
+2025-04-03 00:55:04,163 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /login
+2025-04-03 00:55:08,183 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/games
+2025-04-03 00:55:08,185 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-03 00:55:08,185 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-9] Redirecting to http://localhost:8080/login
+2025-04-03 00:55:08,189 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-03 00:55:17,961 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /api/login
+2025-04-03 00:55:18,087 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-8] Authenticated user
+2025-04-03 00:55:18,088 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-8] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@f5c9a76, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@37752d02]
+2025-04-03 00:55:18,088 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-8] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@f5c9a76, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]
+2025-04-03 01:02:49,393 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m35s42ms).
+2025-04-03 01:19:56,962 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m7s570ms).
+2025-04-03 01:26:19,182 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m22s220ms).
+2025-04-03 01:33:17,631 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s394ms).
+2025-04-03 01:51:31,845 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m44s190ms).
+2025-04-03 01:59:29,881 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m28s4ms).
+2025-04-03 03:00:39,432 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m38s799ms).
+2025-04-03 03:17:14,756 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m5s327ms).
+2025-04-03 03:32:42,607 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m27s851ms).
+2025-04-03 03:49:40,422 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m27s786ms).
+2025-04-03 04:05:38,265 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m27s832ms).
+2025-04-03 04:21:35,887 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m27s623ms).
+2025-04-03 04:42:03,608 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m27s659ms).
+2025-04-03 05:04:54,529 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m50s843ms).
+2025-04-03 05:23:29,996 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m35s453ms).
+2025-04-03 05:40:35,842 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m5s846ms).
+2025-04-03 05:56:57,563 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m51s701ms).
+2025-04-03 06:16:07,323 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m9s716ms).
+2025-04-03 06:32:06,182 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m28s839ms).
+2025-04-03 06:50:32,096 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m25s914ms).
+2025-04-03 06:57:19,349 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m17s245ms).
+2025-04-03 07:13:42,087 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m52s729ms).
+2025-04-03 07:34:39,561 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m57s433ms).
+2025-04-03 07:53:18,654 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m9s67ms).
+2025-04-03 08:09:41,506 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m52s852ms).
+2025-04-03 08:13:10,125 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s581ms).
+2025-04-03 08:29:40,200 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m67ms).
+2025-04-03 08:49:13,373 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m33s141ms).
+2025-04-03 08:58:24,205 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m40s822ms).
+2025-04-03 09:16:03,441 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m9s226ms).
+2025-04-03 09:25:05,922 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m32s431ms).
+2025-04-03 09:41:40,880 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m34s958ms).
+2025-04-03 09:48:59,596 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m44s937ms).
+2025-04-03 09:56:23,309 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m23s713ms).
+2025-04-03 09:59:21,775 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m58s449ms).
+2025-04-03 10:03:26,143 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m4s369ms).
+2025-04-03 10:10:12,264 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m16s111ms).
+2025-04-03 10:11:30,101 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s837ms).
+2025-04-03 10:28:51,987 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m21s822ms).
+2025-04-03 10:56:36,177 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m44s190ms).
