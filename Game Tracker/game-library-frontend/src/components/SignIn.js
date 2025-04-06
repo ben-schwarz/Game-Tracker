@@ -13,6 +13,7 @@ function SignIn() {
 
   const handleSignIn = async (e) => {
     e.preventDefault();
+
     const params = new URLSearchParams();
     params.append("username", username);
     params.append("password", password);
@@ -40,7 +41,16 @@ function SignIn() {
     catch (err) {
       console.error("Login error", err);
       setError("Invalid username or password");
+
     }
+  };
+
+  const skipLogin = () => {
+    localStorage.setItem("userToken", "example_token");
+    localStorage.setItem("username", "Guest");
+    localStorage.setItem("email", "guest@example.com");
+    navigate("/library");
+    window.location.reload(); // Refresh to trigger Navbar and routes
   };
 
   return (
@@ -66,9 +76,26 @@ function SignIn() {
         <br />
         <button type="submit">Login</button>
       </form>
+
       <p>
         Don't have an account? <a href="/create-account">Create one here</a>
       </p>
+
+      {/* Skip Login Button */}
+      <button
+        onClick={skipLogin}
+        style={{
+          marginTop: "10px",
+          background: "#888",
+          color: "#fff",
+          padding: "10px 20px",
+          border: "none",
+          borderRadius: "5px",
+          cursor: "pointer",
+        }}
+      >
+        Skip Login
+      </button>
     </div>
   );
 }

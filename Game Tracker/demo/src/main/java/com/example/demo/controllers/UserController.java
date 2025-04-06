@@ -1,16 +1,12 @@
 package com.example.demo.controllers;
+
 import org.springframework.security.core.Authentication;
-
-
 import com.example.demo.entities.User;
 import com.example.demo.repositories.UserRepository;
 import com.example.demo.services.UserService;
-
 import jakarta.servlet.http.HttpServletResponse;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
@@ -25,8 +21,10 @@ public class UserController {
 
     @Autowired
     private UserService userService;
+    
     @Autowired
     private UserRepository userRepository;
+    
     @Autowired
     private PasswordEncoder passwordEncoder;
 
@@ -69,14 +67,11 @@ public class UserController {
     }
 
     @GetMapping("/me")
-public ResponseEntity<?> getCurrentUser(Authentication authentication) {
-    // 'authentication' will be non-null if the user is authenticated
-    if (authentication == null) {
-        return ResponseEntity.status(HttpServletResponse.SC_UNAUTHORIZED).build();
+    public ResponseEntity<?> getCurrentUser(Authentication authentication) {
+        if (authentication == null) {
+            return ResponseEntity.status(HttpServletResponse.SC_UNAUTHORIZED).build();
+        }
+        Object principal = authentication.getPrincipal();
+        return ResponseEntity.ok(principal);
     }
-    // 'principal' is typically your UserDetails object. Cast it if your entity implements UserDetails
-    Object principal = authentication.getPrincipal();
-    return ResponseEntity.ok(principal);
-}
-
 }

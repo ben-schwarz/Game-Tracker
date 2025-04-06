@@ -7,25 +7,41 @@ import SteamSync from './components/SteamSync';
 import SignIn from './components/SignIn';
 import CreateAccount from './components/CreateAccount';
 import Admin from './components/Admin';
-import {AuthProvider, useAuth } from './components/AuthContext'; // Ensure this path is correct
-
+import Settings from './components/Settings';
+import { AuthProvider, useAuth } from './components/AuthContext';
 import './App.css';
+
+const fontSizeMap = {
+  small: 12,
+  medium: 16,
+  large: 20,
+};
+
+const themeColorMap = {
+  blue: '#556cd6',
+  green: '#2e7d32',
+  red: '#d32f2f',
+  orange: '#ed6c02',
+  purple: '#7e57c2',
+};
+
+const userFontSize = localStorage.getItem("fontSize") || "medium";
+const userThemeColor = localStorage.getItem("themeColor") || "blue";
 
 const theme = createTheme({
   palette: {
-    primary: {
-      main: '#556cd6',
-    },
-    secondary: {
-      main: '#19857b',
-    },
+    primary: { main: themeColorMap[userThemeColor] },
+    secondary: { main: '#19857b' },
+  },
+  typography: {
+    fontSize: fontSizeMap[userFontSize],
   },
 });
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <AuthProvider> {/* Provide the AuthContext */}
+      <AuthProvider>
         <Router>
           <RoutesWithAuth />
         </Router>
@@ -35,18 +51,26 @@ function App() {
 }
 
 function RoutesWithAuth() {
-  const { isAuthenticated } = useAuth(); // Use authentication context within the AuthProvider
+  const { isAuthenticated } = useAuth();
 
   return (
     <>
-      {isAuthenticated && <Navbar />} {/* Show Navbar only when authenticated */}
+      {isAuthenticated && <Navbar />}
       <Routes>
+        {/* Public routes */}
         <Route path="/signin" element={<SignIn />} />
         <Route path="/create-account" element={<CreateAccount />} />
+
+        {/* Protected routes */}
         <Route path="/sync" element={isAuthenticated ? <SteamSync /> : <Navigate to="/signin" />} />
         <Route path="/library" element={isAuthenticated ? <GameLibrary /> : <Navigate to="/signin" />} />
         <Route path="/admin" element={isAuthenticated ? <Admin /> : <Navigate to="/signin" />} />
+        <Route path="/settings" element={isAuthenticated ? <Settings /> : <Navigate to="/signin" />} />
+
+        {/* Default route */}
         <Route path="/" element={<Navigate to={isAuthenticated ? "/library" : "/signin"} />} />
+
+        {/* Catch-all */}
         <Route path="*" element={<Navigate to="/signin" />} />
       </Routes>
     </>
@@ -54,5 +78,4 @@ function RoutesWithAuth() {
 }
 
 export default App;
-
 
