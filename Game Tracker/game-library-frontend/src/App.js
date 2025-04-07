@@ -8,6 +8,7 @@ import SignIn from './components/SignIn';
 import CreateAccount from './components/CreateAccount';
 import Admin from './components/Admin';
 import Settings from './components/Settings';
+import AddGame from './components/AddGame';
 import { AuthProvider, useAuth } from './components/AuthContext';
 import './App.css';
 
@@ -66,6 +67,7 @@ function RoutesWithAuth() {
         <Route path="/library" element={isAuthenticated ? <GameLibrary /> : <Navigate to="/signin" />} />
         <Route path="/admin" element={isAuthenticated ? <Admin /> : <Navigate to="/signin" />} />
         <Route path="/settings" element={isAuthenticated ? <Settings /> : <Navigate to="/signin" />} />
+        <Route path="/add-game" element={isAuthenticated ? <AddGame /> : <Navigate to="/signin" />} />
 
         {/* Default route */}
         <Route path="/" element={<Navigate to={isAuthenticated ? "/library" : "/signin"} />} />
