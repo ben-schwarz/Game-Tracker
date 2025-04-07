@@ -7,7 +7,9 @@ import com.example.demo.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
 import java.util.List;
 
 @RestController
@@ -42,6 +44,12 @@ public class GameController {
         return ResponseEntity.ok(new ApiResponse<>(savedGame, "Game created successfully", true));
     }
 
+    @PostMapping("/add")
+    public ResponseEntity<ApiResponse<Game>> addGame(@RequestBody Game game) {
+        Game savedGame = gameService.saveGame(game);
+        return ResponseEntity.ok(new ApiResponse<>(savedGame, "Game added successfully", true));
+    }
+
     @DeleteMapping("/{id}")
     public ResponseEntity<ApiResponse<Void>> deleteGame(@PathVariable Long id) {
         gameService.deleteGame(id);
@@ -57,5 +65,20 @@ public class GameController {
         game.setId(id);
         Game updatedGame = gameService.saveGame(game);
         return ResponseEntity.ok(new ApiResponse<>(updatedGame, "Game updated successfully", true));
+    }
+
+    @PostMapping("/upload-image")
+    public ResponseEntity<ApiResponse<String>> uploadImage(@RequestParam("file") MultipartFile file) {
+        try {
+            // Save the file to a directory (e.g., "uploads/")
+            String uploadDir = "uploads/";
+            String filePath = uploadDir + file.getOriginalFilename();
+            File dest = new File(filePath);
+            file.transferTo(dest);
+
+            return ResponseEntity.ok(new ApiResponse<>(filePath, "Image uploaded successfully", true));
+        } catch (Exception e) {
+            return ResponseEntity.internalServerError().body(new ApiResponse<>(null, "Failed to upload image", false));
+        }
     }
 }
