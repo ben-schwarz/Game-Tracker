@@ -28,6 +28,9 @@ function Navbar() {
         <Button color="inherit" component={RouterLink} to="/settings">
           Settings
         </Button>
+        <Button color="inherit" component={RouterLink} to="/add-game">
+          Add Game
+        </Button>
         {isAuthenticated ? (
           <>
             <Typography variant="subtitle1" sx={{ marginRight: "1rem" }}>
