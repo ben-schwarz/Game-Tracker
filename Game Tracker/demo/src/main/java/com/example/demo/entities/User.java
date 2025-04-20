@@ -16,6 +16,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+
 @Entity
 @Table(name = "users")
 @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
@@ -120,4 +121,29 @@ public class User implements UserDetails {
     public boolean isCredentialsNonExpired() {
         return true;
     }
+
+
+// inside the class, alongside your other @Column fields:
+
+@Column(name = "provider")
+private String provider;
+
+@Column(name = "google_id")
+private String googleId;
+
+// then below your other getters/setters, add:
+
+public String getProvider() {
+    return provider;
+}
+public void setProvider(String provider) {
+    this.provider = provider;
+}
+
+public String getGoogleId() {
+    return googleId;
+}
+public void setGoogleId(String googleId) {
+    this.googleId = googleId;
+}
 }

@@ -1,0 +1,375 @@
+2025-04-16 16:16:14,968 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-04-16 16:16:14,997 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.1 with PID 83848 (/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes started by bryanpisciotti in /Users/bryanpisciotti/Game-Tracker/Game Tracker/demo)
+2025-04-16 16:16:14,997 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-16 16:16:14,997 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-16 16:16:15,022 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-16 16:16:15,022 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-16 16:16:15,304 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-16 16:16:15,329 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2025-04-16 16:16:15,767 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-16 16:16:15,775 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:16:15,777 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-16 16:16:15,777 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-16 16:16:15,804 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-16 16:16:15,804 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 782 ms
+2025-04-16 16:16:15,886 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-16 16:16:15,916 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-16 16:16:15,932 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-16 16:16:16,066 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-16 16:16:16,084 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-04-16 16:16:16,217 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./GTdb user=SA
+2025-04-16 16:16:16,218 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-04-16 16:16:16,234 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-16 16:16:16,245 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-16 16:16:16,710 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-16 16:16:16,763 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16 16:16:17,025 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-16 16:16:17,046 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-16 16:16:17,047 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-16 16:16:17,203 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-16 16:16:17,316 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./GTdb'
+2025-04-16 16:16:17,368 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-16 16:16:17,378 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:16:17,386 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-16 16:16:17,392 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 2.631 seconds (process running for 2.858)
+2025-04-16 16:16:38,540 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-16 16:16:38,540 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-04-16 16:16:38,541 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-04-16 16:16:38,552 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/games
+2025-04-16 16:16:38,567 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-16 16:16:38,570 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-16 16:16:38,577 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /login
+2025-04-16 16:16:43,572 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/games
+2025-04-16 16:16:43,574 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-16 16:16:43,576 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-3] Redirecting to http://localhost:8080/login
+2025-04-16 16:16:43,583 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-16 16:16:48,425 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /api/login
+2025-04-16 16:16:48,701 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-5] Failed to find user 'test2003'
+2025-04-16 16:16:48,787 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-5] Failed to find user 'test2003'
+2025-04-16 16:17:00,719 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing POST /api/login
+2025-04-16 16:17:00,824 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-6] Failed to find user 'test'
+2025-04-16 16:17:00,910 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-6] Failed to find user 'test'
+2025-04-16 16:17:02,739 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing POST /api/login
+2025-04-16 16:17:02,839 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-7] Failed to find user 'test'
+2025-04-16 16:17:02,926 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-7] Failed to find user 'test'
+2025-04-16 16:17:04,457 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /api/login
+2025-04-16 16:17:04,556 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-8] Failed to find user 'test'
+2025-04-16 16:17:04,643 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-8] Failed to find user 'test'
+2025-04-16 16:17:12,989 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing OPTIONS /api/users/register
+2025-04-16 16:17:12,994 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing POST /api/users/register
+2025-04-16 16:17:12,995 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured POST /api/users/register
+2025-04-16 16:17:13,181 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-16 16:17:20,789 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /api/login
+2025-04-16 16:17:20,897 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-1] Authenticated user
+2025-04-16 16:17:20,907 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-1] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@392a7127, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@2c6a103d]
+2025-04-16 16:17:20,907 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-1] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@392a7127, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]
+2025-04-16 16:39:54,416 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-04-16 16:39:54,430 INFO o.s.b.w.e.t.GracefulShutdown [Thread-6] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-16 16:39:54,431 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:39:54,443 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-16 16:39:54,444 INFO o.a.j.l.DirectJDKLog [Thread-6] Stopping ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:39:54,449 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-6] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16 16:39:54,453 INFO c.z.h.HikariDataSource [Thread-6] HikariPool-1 - Shutdown initiated...
+2025-04-16 16:39:54,467 INFO c.z.h.HikariDataSource [Thread-6] HikariPool-1 - Shutdown completed.
+2025-04-16 16:39:54,551 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.1 with PID 83848 (/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes started by bryanpisciotti in /Users/bryanpisciotti/Game-Tracker/Game Tracker/demo)
+2025-04-16 16:39:54,551 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-16 16:39:54,551 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-16 16:39:54,659 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-16 16:39:54,664 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2025-04-16 16:39:54,775 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-16 16:39:54,776 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:39:54,776 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-16 16:39:54,776 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-16 16:39:54,782 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-16 16:39:54,782 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 230 ms
+2025-04-16 16:39:54,825 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-16 16:39:54,826 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-16 16:39:54,832 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-16 16:39:54,832 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2025-04-16 16:39:54,836 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-2 - Added connection conn10: url=jdbc:h2:file:./GTdb user=SA
+2025-04-16 16:39:54,836 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2025-04-16 16:39:54,836 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-16 16:39:54,837 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-16 16:39:54,873 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-16 16:39:54,874 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16 16:39:54,932 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-16 16:39:54,937 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-16 16:39:54,937 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-16 16:39:54,991 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-16 16:39:55,032 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./GTdb'
+2025-04-16 16:39:55,041 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-16 16:39:55,047 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:39:55,048 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-16 16:39:55,051 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 0.519 seconds (process running for 1420.394)
+2025-04-16 16:39:55,052 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-04-16 16:40:07,562 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-16 16:40:07,564 INFO o.s.b.w.e.t.GracefulShutdown [Thread-8] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-16 16:40:07,565 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:09,576 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-16 16:40:09,576 INFO o.a.j.l.DirectJDKLog [Thread-8] Stopping ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:09,576 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-Acceptor] Socket accept failed
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:203)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:383)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:407)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:518)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:71)
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-16 16:40:09,581 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-8] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16 16:40:09,581 INFO c.z.h.HikariDataSource [Thread-8] HikariPool-2 - Shutdown initiated...
+2025-04-16 16:40:09,658 INFO c.z.h.HikariDataSource [Thread-8] HikariPool-2 - Shutdown completed.
+2025-04-16 16:40:09,706 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.1 with PID 83848 (/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes started by bryanpisciotti in /Users/bryanpisciotti/Game-Tracker/Game Tracker/demo)
+2025-04-16 16:40:09,706 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-16 16:40:09,706 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-16 16:40:09,776 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-16 16:40:09,780 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2025-04-16 16:40:09,861 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-16 16:40:09,861 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:09,861 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-16 16:40:09,861 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-16 16:40:09,867 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-16 16:40:09,867 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 160 ms
+2025-04-16 16:40:09,894 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-16 16:40:09,895 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-16 16:40:09,899 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-16 16:40:09,899 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2025-04-16 16:40:09,902 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-3 - Added connection conn20: url=jdbc:h2:file:./GTdb user=SA
+2025-04-16 16:40:09,903 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2025-04-16 16:40:09,903 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-16 16:40:09,903 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-16 16:40:09,936 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-16 16:40:09,937 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16 16:40:09,988 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-16 16:40:09,993 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-16 16:40:09,994 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-16 16:40:10,038 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-16 16:40:10,072 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./GTdb'
+2025-04-16 16:40:10,079 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-16 16:40:10,084 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:10,085 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-16 16:40:10,087 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 0.396 seconds (process running for 1435.431)
+2025-04-16 16:40:10,088 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-04-16 16:40:16,534 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-16 16:40:16,535 INFO o.s.b.w.e.t.GracefulShutdown [Thread-12] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-16 16:40:16,535 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:18,542 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-16 16:40:18,542 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-Acceptor] Socket accept failed
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:203)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:383)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:407)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:518)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:71)
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-16 16:40:18,543 INFO o.a.j.l.DirectJDKLog [Thread-12] Stopping ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:18,545 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16 16:40:18,546 INFO c.z.h.HikariDataSource [Thread-12] HikariPool-3 - Shutdown initiated...
+2025-04-16 16:40:18,635 INFO c.z.h.HikariDataSource [Thread-12] HikariPool-3 - Shutdown completed.
+2025-04-16 16:40:18,676 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.1 with PID 83848 (/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes started by bryanpisciotti in /Users/bryanpisciotti/Game-Tracker/Game Tracker/demo)
+2025-04-16 16:40:18,676 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-16 16:40:18,676 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-16 16:40:18,742 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-16 16:40:18,747 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2025-04-16 16:40:18,825 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-16 16:40:18,825 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:18,826 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-16 16:40:18,826 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-16 16:40:18,831 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-16 16:40:18,831 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 154 ms
+2025-04-16 16:40:18,857 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-16 16:40:18,858 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-16 16:40:18,861 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-16 16:40:18,862 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2025-04-16 16:40:18,865 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-4 - Added connection conn30: url=jdbc:h2:file:./GTdb user=SA
+2025-04-16 16:40:18,865 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2025-04-16 16:40:18,865 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-16 16:40:18,865 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-16 16:40:18,896 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-16 16:40:18,898 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16 16:40:18,946 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-16 16:40:18,951 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-16 16:40:18,951 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-16 16:40:18,998 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-16 16:40:19,029 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./GTdb'
+2025-04-16 16:40:19,036 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-16 16:40:19,041 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:19,042 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-16 16:40:19,045 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 0.383 seconds (process running for 1444.388)
+2025-04-16 16:40:19,046 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-04-16 16:40:20,452 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-16 16:40:20,453 INFO o.s.b.w.e.t.GracefulShutdown [Thread-16] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-16 16:40:20,453 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:20,456 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-16 16:40:20,456 INFO o.a.j.l.DirectJDKLog [Thread-16] Stopping ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:20,457 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-16] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16 16:40:20,458 INFO c.z.h.HikariDataSource [Thread-16] HikariPool-4 - Shutdown initiated...
+2025-04-16 16:40:20,536 INFO c.z.h.HikariDataSource [Thread-16] HikariPool-4 - Shutdown completed.
+2025-04-16 16:40:20,576 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.1 with PID 83848 (/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes started by bryanpisciotti in /Users/bryanpisciotti/Game-Tracker/Game Tracker/demo)
+2025-04-16 16:40:20,577 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-16 16:40:20,577 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-16 16:40:20,634 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-16 16:40:20,638 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+2025-04-16 16:40:20,715 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-16 16:40:20,715 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:20,716 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-16 16:40:20,716 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-16 16:40:20,721 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-16 16:40:20,721 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 143 ms
+2025-04-16 16:40:20,746 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-16 16:40:20,747 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-16 16:40:20,750 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-16 16:40:20,751 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2025-04-16 16:40:20,760 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-5 - Added connection conn40: url=jdbc:h2:file:./GTdb user=SA
+2025-04-16 16:40:20,760 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2025-04-16 16:40:20,762 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-16 16:40:20,763 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-16 16:40:20,792 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-16 16:40:20,794 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16 16:40:20,841 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-16 16:40:20,845 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-16 16:40:20,846 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-16 16:40:20,895 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-16 16:40:20,926 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./GTdb'
+2025-04-16 16:40:20,933 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-16 16:40:20,938 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:20,939 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-16 16:40:20,941 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 0.379 seconds (process running for 1446.284)
+2025-04-16 16:40:20,942 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-04-16 16:40:22,351 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-16 16:40:22,352 INFO o.s.b.w.e.t.GracefulShutdown [Thread-20] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-16 16:40:22,352 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:23,358 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-16 16:40:23,359 INFO o.a.j.l.DirectJDKLog [Thread-20] Stopping ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:23,360 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-20] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16 16:40:23,360 INFO c.z.h.HikariDataSource [Thread-20] HikariPool-5 - Shutdown initiated...
+2025-04-16 16:40:23,436 INFO c.z.h.HikariDataSource [Thread-20] HikariPool-5 - Shutdown completed.
+2025-04-16 16:40:23,480 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.1 with PID 83848 (/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes started by bryanpisciotti in /Users/bryanpisciotti/Game-Tracker/Game Tracker/demo)
+2025-04-16 16:40:23,480 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-16 16:40:23,480 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-16 16:40:23,540 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-16 16:40:23,543 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 2 JPA repository interfaces.
+2025-04-16 16:40:23,617 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-16 16:40:23,617 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:23,617 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-16 16:40:23,618 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-16 16:40:23,625 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-16 16:40:23,625 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 144 ms
+2025-04-16 16:40:23,651 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-16 16:40:23,652 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-16 16:40:23,656 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-16 16:40:23,657 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2025-04-16 16:40:23,660 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-6 - Added connection conn50: url=jdbc:h2:file:./GTdb user=SA
+2025-04-16 16:40:23,660 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2025-04-16 16:40:23,660 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-16 16:40:23,660 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-16 16:40:23,688 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-16 16:40:23,689 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16 16:40:23,735 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-16 16:40:23,740 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-16 16:40:23,740 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-16 16:40:23,783 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-16 16:40:23,814 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./GTdb'
+2025-04-16 16:40:23,821 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-16 16:40:23,826 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:23,827 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-16 16:40:23,829 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 0.363 seconds (process running for 1449.172)
+2025-04-16 16:40:23,830 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-04-16 16:40:45,416 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-16 16:40:45,417 INFO o.s.b.w.e.t.GracefulShutdown [Thread-24] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-16 16:40:45,417 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:46,429 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-16 16:40:46,429 INFO o.a.j.l.DirectJDKLog [Thread-24] Stopping ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:46,430 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-24] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16 16:40:46,430 INFO c.z.h.HikariDataSource [Thread-24] HikariPool-6 - Shutdown initiated...
+2025-04-16 16:40:46,507 INFO c.z.h.HikariDataSource [Thread-24] HikariPool-6 - Shutdown completed.
+2025-04-16 16:40:46,549 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.1 with PID 83848 (/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes started by bryanpisciotti in /Users/bryanpisciotti/Game-Tracker/Game Tracker/demo)
+2025-04-16 16:40:46,549 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-16 16:40:46,549 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-16 16:40:46,613 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-16 16:40:46,617 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+2025-04-16 16:40:46,694 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-16 16:40:46,694 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:46,695 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-16 16:40:46,695 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-16 16:40:46,702 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-16 16:40:46,703 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 153 ms
+2025-04-16 16:40:46,743 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-16 16:40:46,744 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-16 16:40:46,747 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-16 16:40:46,748 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+2025-04-16 16:40:46,751 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-7 - Added connection conn60: url=jdbc:h2:file:./GTdb user=SA
+2025-04-16 16:40:46,751 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+2025-04-16 16:40:46,751 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-16 16:40:46,751 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-16 16:40:46,782 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-16 16:40:46,783 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16 16:40:46,837 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-16 16:40:46,842 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-16 16:40:46,843 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-16 16:40:46,886 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-16 16:40:46,918 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./GTdb'
+2025-04-16 16:40:46,925 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-16 16:40:46,929 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-16 16:40:46,930 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-16 16:40:46,933 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 0.397 seconds (process running for 1472.275)
+2025-04-16 16:40:46,933 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-04-16 16:46:24,455 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=4m7s564ms).
+2025-04-16 16:48:50,949 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=2m26s496ms).
+2025-04-16 16:52:54,719 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=4m3s770ms).
+2025-04-16 18:15:44,678 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1h22m49s959ms).
+2025-04-16 19:34:32,796 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1h18m48s118ms).
+2025-04-16 20:45:06,181 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1h10m33s385ms).
+2025-04-16 22:02:36,617 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1h17m30s436ms).
+2025-04-16 23:18:35,886 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1h15m59s269ms).
+2025-04-16 23:59:05,003 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=40m29s117ms).

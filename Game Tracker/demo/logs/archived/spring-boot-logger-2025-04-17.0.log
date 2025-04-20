@@ -1,0 +1,262 @@
+2025-04-17 01:07:29,857 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1h8m24s854ms).
+2025-04-17 02:50:42,721 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1h43m12s864ms).
+2025-04-17 04:13:56,783 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1h23m14s62ms).
+2025-04-17 05:52:27,642 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1h38m30s859ms).
+2025-04-17 07:33:53,489 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1h41m25s847ms).
+2025-04-17 08:13:16,108 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=39m22s619ms).
+2025-04-17 08:13:42,963 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Retrograde clock change detected (housekeeper delta=26s854ms), soft-evicting connections from pool.
+2025-04-17 08:24:47,350 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=9m34s358ms).
+2025-04-17 08:41:45,728 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=16m58s378ms).
+2025-04-17 09:12:50,390 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=31m4s662ms).
+2025-04-17 09:41:06,092 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=28m15s702ms).
+2025-04-17 10:24:54,339 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=43m48s247ms).
+2025-04-17 11:05:48,807 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=40m54s468ms).
+2025-04-17 11:07:42,022 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1m53s215ms).
+2025-04-17 11:50:13,247 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=4m30s942ms).
+2025-04-17 11:51:47,229 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1m3s968ms).
+2025-04-17 11:54:54,049 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=3m6s821ms).
+2025-04-17 11:56:47,420 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1m23s368ms).
+2025-04-17 12:01:35,655 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=4m48s235ms).
+2025-04-17 12:30:34,359 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=58s417ms).
+2025-04-17 12:32:22,516 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1m18s144ms).
+2025-04-17 12:34:59,888 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=2m37s372ms).
+2025-04-17 12:39:27,006 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=3m57s113ms).
+2025-04-17 12:43:22,642 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=3m55s635ms).
+2025-04-17 12:48:04,078 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=4m41s437ms).
+2025-04-17 13:11:38,770 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=4m4s517ms).
+2025-04-17 13:20:34,327 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=8m55s557ms).
+2025-04-17 13:27:18,953 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=6m44s626ms).
+2025-04-17 13:59:46,264 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=32m27s310ms).
+2025-04-17 14:00:16,133 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Retrograde clock change detected (housekeeper delta=29s870ms), soft-evicting connections from pool.
+2025-04-17 14:42:29,256 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 14:42:29,262 INFO o.s.b.w.e.t.GracefulShutdown [Thread-28] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 14:42:29,263 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-04-17 14:42:31,271 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-17 14:42:31,272 INFO o.a.j.l.DirectJDKLog [Thread-28] Stopping ProtocolHandler ["http-nio-8080"]
+2025-04-17 14:42:31,272 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-Acceptor] Socket accept failed
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:203)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:383)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:407)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:518)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:71)
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-17 14:42:31,274 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-28] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 14:42:31,277 INFO c.z.h.HikariDataSource [Thread-28] HikariPool-7 - Shutdown initiated...
+2025-04-17 14:42:31,361 INFO c.z.h.HikariDataSource [Thread-28] HikariPool-7 - Shutdown completed.
+2025-04-17 14:42:31,445 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.1 with PID 83848 (/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes started by bryanpisciotti in /Users/bryanpisciotti/Game-Tracker/Game Tracker/demo)
+2025-04-17 14:42:31,445 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-17 14:42:31,445 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-17 14:42:31,543 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 14:42:31,547 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+2025-04-17 14:42:31,654 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-17 14:42:31,655 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-17 14:42:31,655 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-17 14:42:31,655 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-17 14:42:31,661 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-17 14:42:31,661 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 215 ms
+2025-04-17 14:42:31,691 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 14:42:31,693 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-17 14:42:31,700 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 14:42:31,701 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2025-04-17 14:42:31,704 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-8 - Added connection conn130: url=jdbc:h2:file:./GTdb user=SA
+2025-04-17 14:42:31,704 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2025-04-17 14:42:31,704 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-17 14:42:31,705 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 14:42:31,735 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 14:42:31,737 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 14:42:31,827 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authController' defined in file [/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes/com/example/demo/controllers/AuthController.class]: Failed to instantiate [com.example.demo.controllers.AuthController]: Constructor threw exception
+2025-04-17 14:42:31,827 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 14:42:31,827 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-8 - Shutdown initiated...
+2025-04-17 14:42:31,900 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-8 - Shutdown completed.
+2025-04-17 14:42:31,901 INFO o.a.j.l.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2025-04-17 14:42:31,904 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-17 14:42:31,915 ERROR o.s.b.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authController' defined in file [/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes/com/example/demo/controllers/AuthController.class]: Failed to instantiate [com.example.demo.controllers.AuthController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1343)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:346)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.controllers.AuthController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:222)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import com.example.demo.models cannot be resolved
+	The import com.example.demo.services.JwtService cannot be resolved
+	The import com.google cannot be resolved
+	The import com.google cannot be resolved
+	The import com.google cannot be resolved
+	The import com.google cannot be resolved
+	JwtService cannot be resolved to a type
+	GoogleIdTokenVerifier cannot be resolved to a type
+	Builder cannot be resolved to a type
+	GoogleIdTokenVerifier cannot be resolved to a type
+	GoogleNetHttpTransport cannot be resolved
+	JacksonFactory cannot be resolved
+	GoogleIdToken cannot be resolved to a type
+	GoogleIdToken cannot be resolved to a type
+	User cannot be resolved to a type
+	The method findByEmail(String) is undefined for the type UserRepository
+	User cannot be resolved to a type
+	JwtService cannot be resolved to a type
+
+	at com.example.demo.controllers.AuthController.<init>(AuthController.java:10)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:196)
+	... 24 common frames omitted
+2025-04-17 14:43:46,412 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.1 with PID 83848 (/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes started by bryanpisciotti in /Users/bryanpisciotti/Game-Tracker/Game Tracker/demo)
+2025-04-17 14:43:46,412 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-17 14:43:46,412 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-17 14:43:46,491 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 14:43:46,492 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-04-17 14:43:46,573 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-17 14:43:46,574 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-17 14:43:46,574 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-17 14:43:46,574 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-17 14:43:46,580 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-17 14:43:46,580 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 167 ms
+2025-04-17 14:43:46,598 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 14:43:46,599 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-17 14:43:46,603 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 14:43:46,604 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-9 - Starting...
+2025-04-17 14:43:46,608 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-9 - Added connection conn132: url=jdbc:h2:file:./GTdb user=SA
+2025-04-17 14:43:46,608 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-9 - Start completed.
+2025-04-17 14:43:46,609 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-17 14:43:46,609 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-9)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 14:43:46,617 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 14:43:46,617 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 14:43:46,659 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-17 14:43:46,721 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./GTdb'
+2025-04-17 14:43:46,734 WARN o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [restartedMain] 
+
+Using generated security password: f53a871c-e3b3-4194-8f7f-7cab0f1c92e3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-04-17 14:43:46,736 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-04-17 14:43:46,754 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-17 14:43:46,762 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-17 14:43:46,767 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-17 14:43:46,768 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-17 14:43:46,771 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 0.391 seconds (process running for 10683.758)
+2025-04-17 14:43:46,773 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - AnyNestedCondition 1 matched 2 did not; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'password'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'name'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured)
+      - @ConditionalOnBean (types: org.springframework.security.config.ObjectPostProcessor; SearchStrategy: all) found beans 'objectPostProcessor', 'webAuthorizationManagerPostProcessor', 'filterChainDecoratorPostProcessor', 'authenticationManagerPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-04-17 15:13:22,881 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=2m35s863ms).
+2025-04-17 15:26:06,264 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=12m43s384ms).
+2025-04-17 15:45:07,963 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=19m1s698ms).
+2025-04-17 15:51:07,975 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=6m13ms).
+2025-04-17 16:07:04,904 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=15m56s929ms).
+2025-04-17 16:09:09,908 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=2m5s4ms).
+2025-04-17 16:13:16,515 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=4m6s607ms).
+2025-04-17 16:26:27,997 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=13m11s482ms).
+2025-04-17 16:40:06,719 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=13m38s721ms).
+2025-04-17 16:53:53,939 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=13m47s221ms).
+2025-04-17 17:02:40,807 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=8m46s868ms).
+2025-04-17 17:11:37,017 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=8m56s210ms).
+2025-04-17 17:50:15,719 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=38m38s702ms).
+2025-04-17 18:12:31,489 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=22m15s770ms).
+2025-04-17 18:26:42,337 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=14m10s848ms).
+2025-04-17 18:40:21,604 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=13m39s267ms).
+2025-04-17 18:57:58,165 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=17m36s561ms).
+2025-04-17 19:08:02,086 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=10m3s921ms).
+2025-04-17 19:35:41,023 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=27m38s937ms).
+2025-04-17 20:02:47,806 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=27m6s783ms).
+2025-04-17 20:28:05,570 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=25m17s764ms).
+2025-04-17 20:45:12,357 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=17m6s787ms).
+2025-04-17 20:55:39,311 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=9m56s864ms).
+2025-04-17 21:01:55,845 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=6m16s534ms).
+2025-04-17 21:21:59,994 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=20m4s149ms).
+2025-04-17 21:45:25,971 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=23m25s977ms).
+2025-04-17 21:59:26,901 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=12m911ms).
+2025-04-17 22:12:45,873 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=13m18s972ms).
+2025-04-17 22:30:08,163 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=17m22s290ms).
+2025-04-17 22:54:26,095 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=24m17s932ms).
+2025-04-17 22:58:24,115 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=2m28s6ms).
+2025-04-17 23:08:20,075 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=8m25s943ms).
+2025-04-17 23:12:40,670 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=3m20s632ms).
+2025-04-17 23:17:30,580 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=4m49s910ms).
+2025-04-17 23:31:29,828 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=13m59s248ms).
+2025-04-17 23:49:33,429 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=18m3s601ms).
+2025-04-17 23:55:31,746 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=5m58s317ms).

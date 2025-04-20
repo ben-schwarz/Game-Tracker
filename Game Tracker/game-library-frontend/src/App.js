@@ -9,6 +9,7 @@ import CreateAccount from './components/CreateAccount';
 import Admin from './components/Admin';
 import Settings from './components/Settings';
 import AddGame from './components/AddGame';
+import GoogleSignIn from './components/GoogleSignIn';
 import { AuthProvider, useAuth } from './components/AuthContext';
 import './App.css';
 
@@ -60,6 +61,7 @@ function RoutesWithAuth() {
       <Routes>
         {/* Public routes */}
         <Route path="/signin" element={<SignIn />} />
+        <Route path="/GoogleSignIn" element={<GoogleSignIn />} />
         <Route path="/create-account" element={<CreateAccount />} />
 
         {/* Protected routes */}
