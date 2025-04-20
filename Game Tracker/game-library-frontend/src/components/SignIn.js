@@ -1,8 +1,8 @@
-// SignIn.js
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useAuth } from "./AuthContext";
+import GoogleSignIn from "./GoogleSignIn";
 
 function SignIn() {
   const navigate = useNavigate();
@@ -13,7 +13,6 @@ function SignIn() {
 
   const handleSignIn = async (e) => {
     e.preventDefault();
-
     const params = new URLSearchParams();
     params.append("username", username);
     params.append("password", password);
@@ -28,20 +27,11 @@ function SignIn() {
         }
       );
 
-     /* if (response.status === 200) {
-        // Fetch user details from your backend 'me' endpoint
-        const userResponse = await axios.get("http://localhost:8080/api/users", {
-          withCredentials: true,
-     }); */
-
-        // Call the login function with the token and user data
-        login(response.data.token || "session-based");
-        navigate("/sync");
-      } 
-    catch (err) {
+      login(response.data.token || "session-based");
+      navigate("/sync");
+    } catch (err) {
       console.error("Login error", err);
       setError("Invalid username or password");
-
     }
   };
 
@@ -50,7 +40,31 @@ function SignIn() {
     localStorage.setItem("username", "Guest");
     localStorage.setItem("email", "guest@example.com");
     navigate("/library");
-    window.location.reload(); // Refresh to trigger Navbar and routes
+    window.location.reload();
+  };
+
+  // —— New Google Sign-In handlers ——
+  const handleGoogleSuccess = async (token) => {
+    try {
+      const res = await axios.post(
+        "http://localhost:8080/api/auth/google",
+        { token },
+        {
+          headers: { "Content-Type": "application/json" },
+          withCredentials: true,
+        }
+      );
+      login(res.data.token);
+      navigate("/sync");
+    } catch (e) {
+      console.error("Google Sign-In error", e);
+      setError("Google Sign-In failed");
+    }
+  };
+
+  const handleGoogleFailure = (msg) => {
+    console.error("Google Sign-In failed:", msg);
+    setError("Google Sign-In failed");
   };
 
   return (
@@ -78,29 +92,30 @@ function SignIn() {
       </form>
 
       <p>
-        Don't have an account? <a href="/create-account">Create one here</a>
+        Don’t have an account? <a href="/create-account">Create one here</a>
       </p>
 
-      {/* Skip Login Button */}
-      <button
-        onClick={skipLogin}
-        style={{
-          marginTop: "10px",
-          background: "#888",
-          color: "#fff",
-          padding: "10px 20px",
-          border: "none",
-          borderRadius: "5px",
-          cursor: "pointer",
-        }}
-      >
+      <button onClick={skipLogin} style={{
+        marginTop: "10px", background: "#888", color: "#fff",
+        padding: "10px 20px", border: "none", borderRadius: "5px",
+        cursor: "pointer",
+      }}>
         Skip Login
       </button>
+
+      {/* —— Google Sign‑In Option —— */}
+      <hr style={{ margin: "30px 0" }} />
+      <h3>Or sign in with Google</h3>
+      <GoogleSignIn
+        onSuccess={handleGoogleSuccess}
+        onFailure={handleGoogleFailure}
+      />
     </div>
   );
 }
 
 export default SignIn;
+
 
 
 
