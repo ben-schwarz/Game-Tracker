@@ -74,4 +74,17 @@ public class UserController {
         Object principal = authentication.getPrincipal();
         return ResponseEntity.ok(principal);
     }
+
+    @DeleteMapping("/{id}")
+    @ResponseBody
+    void deleteUserById(@PathVariable Long id) {
+        userService.deleteUserById(id);
+        return;
+    }
+
+    @PatchMapping("/{id}/Admin")
+    public void setPassword(@PathVariable String id, boolean state) {
+        userService.makeAdmin(Long.parseLong(id));
+        return;
+    }
 }

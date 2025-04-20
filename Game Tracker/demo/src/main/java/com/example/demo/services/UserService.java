@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class UserService implements UserDetailsService {
@@ -40,8 +41,15 @@ public class UserService implements UserDetailsService {
         return userRepository.findAll();
     }
 
-    public void deleteUserById(Long id) {
-        userRepository.deleteById(id);
+    public void deleteUserById(String id) {
+        userRepository.deleteById(Long.valueOf(id));
+        return;
+    }
+
+    public void makeAdmin(Long id) {
+        Optional<User> myUser = userRepository.findById(id);
+        myUser.get().setRole("ADMIN");
+
         return;
     }
     // Add more methods as needed
