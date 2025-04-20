@@ -1,13 +1,18 @@
 import {useEffect, useState} from 'react';
 import {API_BASE_URL, API_ENDPOINT} from "../config";
 import axios from "axios";
+import { useAuth } from "./AuthContext";
 import {TableCell} from "@mui/material";
 
 function Admin() {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        axios.get(API_ENDPOINT + '/users/all')
+        axios.get(API_ENDPOINT + '/users/all',
+            /*params,
+            {
+                withCredentials: true,
+            }*/)
             .then(response => {
                 setUsers(response.data);
                 console.log("Response data:" + response.data);
@@ -74,7 +79,9 @@ function Admin() {
                     <th scope="col">Manage</th>
                 </tr>
                 </thead>
+                <tbody>
 
+                </tbody>
             </table>
         </div>
     );
