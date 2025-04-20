@@ -1,0 +1,1076 @@
+2025-04-19 11:10:41,751 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-04-19 11:10:41,774 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.2 with PID 81663 (/Users/benschwarz/Documents/GitHub/Game-Tracker/Game Tracker/demo/target/classes started by benschwarz in /Users/benschwarz/Documents/GitHub/Game-Tracker/Game Tracker/demo)
+2025-04-19 11:10:41,775 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-19 11:10:41,775 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-19 11:10:41,798 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-19 11:10:41,798 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-19 11:10:42,035 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-19 11:10:42,054 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2025-04-19 11:10:42,408 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-19 11:10:42,415 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-19 11:10:42,416 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-19 11:10:42,417 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-19 11:10:42,434 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-19 11:10:42,434 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 636 ms
+2025-04-19 11:10:42,512 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-19 11:10:42,537 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-19 11:10:42,557 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-19 11:10:42,668 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-19 11:10:42,681 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-04-19 11:10:42,779 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./GTdb user=SA
+2025-04-19 11:10:42,779 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-04-19 11:10:42,792 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-19 11:10:42,799 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-19 11:10:43,212 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-19 11:10:43,242 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-19 11:10:43,437 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-19 11:10:43,456 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-19 11:10:43,457 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-19 11:10:43,581 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-19 11:10:43,669 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./GTdb'
+2025-04-19 11:10:43,702 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-19 11:10:43,711 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-19 11:10:43,723 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-19 11:10:43,728 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 2.168 seconds (process running for 2.352)
+2025-04-19 11:11:41,622 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-19 11:11:41,623 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-04-19 11:11:41,633 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 10 ms
+2025-04-19 11:11:41,654 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/games
+2025-04-19 11:11:41,674 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:11:41,676 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-19 11:11:41,679 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/games
+2025-04-19 11:11:41,680 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:11:41,680 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-2] Redirecting to http://localhost:8080/login
+2025-04-19 11:11:41,682 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /login
+2025-04-19 11:11:41,687 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-19 11:13:44,372 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /api/users/register
+2025-04-19 11:13:44,382 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /api/users/register
+2025-04-19 11:13:44,388 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured POST /api/users/register
+2025-04-19 11:13:44,647 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:13:47,875 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing POST /api/login
+2025-04-19 11:13:48,176 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-10] Authenticated user
+2025-04-19 11:13:48,187 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-10] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@1fa61408, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@27ac3783]
+2025-04-19 11:13:48,187 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-10] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@1fa61408, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]
+2025-04-19 11:13:51,548 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/games
+2025-04-19 11:13:51,556 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:13:51,557 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-19 11:13:51,563 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/games
+2025-04-19 11:13:51,564 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /login
+2025-04-19 11:13:51,564 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:13:51,565 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-2] Redirecting to http://localhost:8080/login
+2025-04-19 11:13:51,575 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-19 11:14:11,280 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /api/login
+2025-04-19 11:14:11,409 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-8] Authenticated user
+2025-04-19 11:14:11,410 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-8] Changed session id from 4FC55A4EC4B9D8AADC4B21AB5CB91DEC
+2025-04-19 11:14:11,411 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-8] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@5e052790, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4FC55A4EC4B9D8AADC4B21AB5CB91DEC], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@27ac3783]
+2025-04-19 11:14:11,411 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-8] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@5e052790, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4FC55A4EC4B9D8AADC4B21AB5CB91DEC], Granted Authorities=[USER]]
+2025-04-19 11:14:29,144 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/query.do?jsessionid=5dd5a6d334a8bd4567921d8d93de3cf4
+2025-04-19 11:14:29,146 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/query.do?jsessionid=5dd5a6d334a8bd4567921d8d93de3cf4
+2025-04-19 11:14:29,201 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/stylesheet.css
+2025-04-19 11:14:29,203 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/stylesheet.css
+2025-04-19 11:14:29,232 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/login.jsp?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:14:29,233 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/login.jsp?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:14:29,258 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/background.gif
+2025-04-19 11:14:29,260 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/background.gif
+2025-04-19 11:14:29,459 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /favicon.ico
+2025-04-19 11:14:29,461 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-4] Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@5e052790, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4FC55A4EC4B9D8AADC4B21AB5CB91DEC], Granted Authorities=[USER]]]
+2025-04-19 11:14:29,461 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /favicon.ico
+2025-04-19 11:14:29,495 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-04-19 11:14:35,571 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing POST /h2-console/login.do?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:14:35,573 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured POST /h2-console/login.do?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:14:35,612 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/help.jsp?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:14:35,611 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/tables.do?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:14:35,612 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/query.jsp?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:14:35,616 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/header.jsp?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:14:35,616 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/help.jsp?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:14:35,618 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/tables.do?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:14:35,620 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/query.jsp?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:14:35,623 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/header.jsp?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:14:35,657 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/icon_disconnect.gif
+2025-04-19 11:14:35,658 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/icon_run.gif
+2025-04-19 11:14:35,658 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/icon_history.gif
+2025-04-19 11:14:35,659 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/icon_run.gif
+2025-04-19 11:14:35,659 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/icon_disconnect.gif
+2025-04-19 11:14:35,666 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/icon_line.gif
+2025-04-19 11:14:35,671 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/icon_line.gif
+2025-04-19 11:14:35,677 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/icon_help.gif
+2025-04-19 11:14:35,673 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/icon_history.gif
+2025-04-19 11:14:35,678 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/icon_help.gif
+2025-04-19 11:14:35,681 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/icon_rollback.gif
+2025-04-19 11:14:35,681 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/icon_refresh.gif
+2025-04-19 11:14:35,681 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/icon_rollback.gif
+2025-04-19 11:14:35,681 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/icon_refresh.gif
+2025-04-19 11:14:35,700 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/icon_commit.gif
+2025-04-19 11:14:35,702 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/icon_stop.gif
+2025-04-19 11:14:35,704 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/icon_commit.gif
+2025-04-19 11:14:35,708 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/icon_stop.gif
+2025-04-19 11:14:35,710 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/icon_run_selected.gif
+2025-04-19 11:14:35,710 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/icon_run_selected.gif
+2025-04-19 11:14:35,745 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/tree.js
+2025-04-19 11:14:35,746 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/tree.js
+2025-04-19 11:14:35,754 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/tree_minus.gif
+2025-04-19 11:14:35,754 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/tree_column.gif
+2025-04-19 11:14:35,754 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/tree_empty.gif
+2025-04-19 11:14:35,754 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/tree_table.gif
+2025-04-19 11:14:35,754 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/tree_minus.gif
+2025-04-19 11:14:35,754 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/tree_column.gif
+2025-04-19 11:14:35,754 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/tree_empty.gif
+2025-04-19 11:14:35,754 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/tree_database.gif
+2025-04-19 11:14:35,754 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/tree_table.gif
+2025-04-19 11:14:35,754 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/tree_plus.gif
+2025-04-19 11:14:35,755 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/tree_plus.gif
+2025-04-19 11:14:35,755 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/tree_database.gif
+2025-04-19 11:14:35,759 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/tree_view.gif
+2025-04-19 11:14:35,759 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/tree_users.gif
+2025-04-19 11:14:35,759 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/tree_folder.gif
+2025-04-19 11:14:35,760 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/tree_view.gif
+2025-04-19 11:14:35,760 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/tree_type.gif
+2025-04-19 11:14:35,760 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/tree_folder.gif
+2025-04-19 11:14:35,760 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/tree_index.gif
+2025-04-19 11:14:35,760 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/tree_index_az.gif
+2025-04-19 11:14:35,760 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/tree_index.gif
+2025-04-19 11:14:35,760 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/tree_type.gif
+2025-04-19 11:14:35,760 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/tree_users.gif
+2025-04-19 11:14:35,760 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/tree_index_az.gif
+2025-04-19 11:14:35,766 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/tree_user.gif
+2025-04-19 11:14:35,767 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/tree_user.gif
+2025-04-19 11:14:35,767 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/tree_info.gif
+2025-04-19 11:14:35,768 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/tree_info.gif
+2025-04-19 11:14:35,811 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /favicon.ico
+2025-04-19 11:14:35,812 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-4] Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@5e052790, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4FC55A4EC4B9D8AADC4B21AB5CB91DEC], Granted Authorities=[USER]]]
+2025-04-19 11:14:35,812 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /favicon.ico
+2025-04-19 11:14:35,826 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-04-19 11:14:41,065 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /h2-console/query.do?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:14:41,065 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured POST /h2-console/query.do?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:14:41,090 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/stylesheet.css
+2025-04-19 11:14:41,091 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/table.js
+2025-04-19 11:14:41,091 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/stylesheet.css
+2025-04-19 11:14:41,091 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/table.js
+2025-04-19 11:15:41,304 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing POST /h2-console/query.do?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:15:41,309 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured POST /h2-console/query.do?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:15:41,340 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/table.js
+2025-04-19 11:15:41,336 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/stylesheet.css
+2025-04-19 11:15:41,341 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/stylesheet.css
+2025-04-19 11:15:41,341 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/table.js
+2025-04-19 11:15:47,204 INFO o.s.b.w.e.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-19 11:15:47,219 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-19 11:15:47,224 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-19 11:15:47,238 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-04-19 11:15:47,239 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-04-19 11:15:51,599 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-04-19 11:15:51,626 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.2 with PID 83668 (/Users/benschwarz/Documents/GitHub/Game-Tracker/Game Tracker/demo/target/classes started by benschwarz in /Users/benschwarz/Documents/GitHub/Game-Tracker/Game Tracker/demo)
+2025-04-19 11:15:51,626 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-19 11:15:51,626 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-19 11:15:51,651 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-19 11:15:51,651 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-19 11:15:51,906 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-19 11:15:51,928 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2025-04-19 11:15:52,313 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-19 11:15:52,320 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-19 11:15:52,321 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-19 11:15:52,322 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-19 11:15:52,339 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-19 11:15:52,340 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 689 ms
+2025-04-19 11:15:52,429 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-19 11:15:52,458 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-19 11:15:52,476 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-19 11:15:52,588 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-19 11:15:52,601 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-04-19 11:15:52,705 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./GTdb user=SA
+2025-04-19 11:15:52,705 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-04-19 11:15:52,718 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-19 11:15:52,726 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-19 11:15:53,131 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-19 11:15:53,149 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-19 11:15:53,349 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-19 11:15:53,369 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-19 11:15:53,370 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-19 11:15:53,501 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-19 11:15:53,592 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./GTdb'
+2025-04-19 11:15:53,623 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-19 11:15:53,632 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-19 11:15:53,646 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-19 11:15:53,651 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 2.265 seconds (process running for 2.45)
+2025-04-19 11:16:01,289 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /h2-console/login.do?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:16:01,297 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured POST /h2-console/login.do?jsessionid=5b7f3f8fbd678b30fdbd9eed67916479
+2025-04-19 11:16:01,352 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/stylesheet.css
+2025-04-19 11:16:01,353 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/stylesheet.css
+2025-04-19 11:16:01,385 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/login.jsp?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:16:01,385 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/login.jsp?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:16:01,467 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/background.gif
+2025-04-19 11:16:01,468 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/background.gif
+2025-04-19 11:16:01,620 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-5] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-19 11:16:01,622 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-5] Initializing Servlet 'dispatcherServlet'
+2025-04-19 11:16:01,632 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-5] Completed initialization in 8 ms
+2025-04-19 11:16:01,635 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /favicon.ico
+2025-04-19 11:16:01,639 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-5] Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@70b2f747, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4FC55A4EC4B9D8AADC4B21AB5CB91DEC], Granted Authorities=[USER]]]
+2025-04-19 11:16:01,640 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /favicon.ico
+2025-04-19 11:16:01,691 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-04-19 11:16:13,632 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing POST /h2-console/login.do?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:16:13,635 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured POST /h2-console/login.do?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:16:13,700 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/tables.do?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:16:13,702 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/help.jsp?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:16:13,703 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/help.jsp?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:16:13,710 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/tables.do?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:16:13,700 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/header.jsp?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:16:13,713 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/query.jsp?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:16:13,702 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/stylesheet.css
+2025-04-19 11:16:13,715 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/header.jsp?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:16:13,715 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/stylesheet.css
+2025-04-19 11:16:13,715 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/query.jsp?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:16:13,744 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/icon_help.gif
+2025-04-19 11:16:13,745 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/icon_help.gif
+2025-04-19 11:16:13,745 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/icon_history.gif
+2025-04-19 11:16:13,749 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/icon_history.gif
+2025-04-19 11:16:13,751 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/icon_line.gif
+2025-04-19 11:16:13,752 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/icon_line.gif
+2025-04-19 11:16:13,752 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/icon_disconnect.gif
+2025-04-19 11:16:13,753 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/icon_disconnect.gif
+2025-04-19 11:16:13,757 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/icon_run_selected.gif
+2025-04-19 11:16:13,756 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/icon_run.gif
+2025-04-19 11:16:13,758 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/icon_run.gif
+2025-04-19 11:16:13,758 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/icon_run_selected.gif
+2025-04-19 11:16:13,765 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/icon_refresh.gif
+2025-04-19 11:16:13,768 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/icon_rollback.gif
+2025-04-19 11:16:13,768 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/icon_refresh.gif
+2025-04-19 11:16:13,768 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/icon_rollback.gif
+2025-04-19 11:16:13,775 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/icon_commit.gif
+2025-04-19 11:16:13,777 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/icon_commit.gif
+2025-04-19 11:16:13,780 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/icon_stop.gif
+2025-04-19 11:16:13,780 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/icon_stop.gif
+2025-04-19 11:16:13,848 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/tree.js
+2025-04-19 11:16:13,849 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/tree.js
+2025-04-19 11:16:13,860 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/tree_plus.gif
+2025-04-19 11:16:13,860 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/tree_minus.gif
+2025-04-19 11:16:13,860 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/tree_database.gif
+2025-04-19 11:16:13,860 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/tree_table.gif
+2025-04-19 11:16:13,860 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/tree_table.gif
+2025-04-19 11:16:13,860 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/tree_plus.gif
+2025-04-19 11:16:13,860 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/tree_minus.gif
+2025-04-19 11:16:13,861 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/tree_column.gif
+2025-04-19 11:16:13,860 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/tree_database.gif
+2025-04-19 11:16:13,861 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/tree_empty.gif
+2025-04-19 11:16:13,862 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/tree_empty.gif
+2025-04-19 11:16:13,862 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/tree_column.gif
+2025-04-19 11:16:13,866 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/tree_type.gif
+2025-04-19 11:16:13,866 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/tree_index_az.gif
+2025-04-19 11:16:13,866 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/tree_type.gif
+2025-04-19 11:16:13,866 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/tree_index_az.gif
+2025-04-19 11:16:13,866 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/tree_index.gif
+2025-04-19 11:16:13,867 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/tree_index.gif
+2025-04-19 11:16:13,867 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/tree_folder.gif
+2025-04-19 11:16:13,867 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/tree_info.gif
+2025-04-19 11:16:13,867 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/tree_users.gif
+2025-04-19 11:16:13,867 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/tree_folder.gif
+2025-04-19 11:16:13,867 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/tree_info.gif
+2025-04-19 11:16:13,868 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/tree_users.gif
+2025-04-19 11:16:13,872 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/tree_view.gif
+2025-04-19 11:16:13,873 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/tree_user.gif
+2025-04-19 11:16:13,873 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/tree_user.gif
+2025-04-19 11:16:13,873 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/tree_view.gif
+2025-04-19 11:16:13,937 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /favicon.ico
+2025-04-19 11:16:13,938 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-1] Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@70b2f747, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4FC55A4EC4B9D8AADC4B21AB5CB91DEC], Granted Authorities=[USER]]]
+2025-04-19 11:16:13,938 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /favicon.ico
+2025-04-19 11:16:13,947 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-04-19 11:16:17,849 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing POST /h2-console/query.do?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:16:17,858 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured POST /h2-console/query.do?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:16:17,898 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/table.js
+2025-04-19 11:16:17,899 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/table.js
+2025-04-19 11:16:33,370 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /api/users/register
+2025-04-19 11:16:33,378 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /api/users/register
+2025-04-19 11:16:33,382 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured POST /api/users/register
+2025-04-19 11:16:33,622 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:16:36,601 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing POST /api/login
+2025-04-19 11:16:36,889 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-10] Authenticated user
+2025-04-19 11:16:36,898 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-10] Changed session id from A3B1BD8AA21E742AA10040437FA6D7BB
+2025-04-19 11:16:36,899 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-10] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@2363c3fd, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=A3B1BD8AA21E742AA10040437FA6D7BB], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@702d956c]
+2025-04-19 11:16:36,899 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-10] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@2363c3fd, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=A3B1BD8AA21E742AA10040437FA6D7BB], Granted Authorities=[USER]]
+2025-04-19 11:16:42,332 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing POST /h2-console/query.do?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:16:42,334 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured POST /h2-console/query.do?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:16:42,353 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/table.js
+2025-04-19 11:16:42,353 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/stylesheet.css
+2025-04-19 11:16:42,354 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/stylesheet.css
+2025-04-19 11:16:42,354 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/table.js
+2025-04-19 11:17:21,138 INFO o.s.b.w.e.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-19 11:17:21,152 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-19 11:17:21,160 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-19 11:17:21,167 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-04-19 11:17:21,170 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-04-19 11:17:25,634 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-04-19 11:17:25,665 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.2 with PID 84272 (/Users/benschwarz/Documents/GitHub/Game-Tracker/Game Tracker/demo/target/classes started by benschwarz in /Users/benschwarz/Documents/GitHub/Game-Tracker/Game Tracker/demo)
+2025-04-19 11:17:25,666 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-19 11:17:25,666 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-19 11:17:25,693 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-19 11:17:25,694 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-19 11:17:25,948 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-19 11:17:25,970 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2025-04-19 11:17:26,357 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-19 11:17:26,365 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-19 11:17:26,366 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-19 11:17:26,367 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-19 11:17:26,385 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-19 11:17:26,386 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 691 ms
+2025-04-19 11:17:26,480 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-19 11:17:26,508 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-19 11:17:26,527 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-19 11:17:26,637 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-19 11:17:26,651 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-04-19 11:17:26,751 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./GTdb user=SA
+2025-04-19 11:17:26,752 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-04-19 11:17:26,764 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-19 11:17:26,772 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-19 11:17:27,186 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-19 11:17:27,210 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-19 11:17:27,417 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-19 11:17:27,438 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-19 11:17:27,438 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-19 11:17:27,582 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-19 11:17:27,676 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./GTdb'
+2025-04-19 11:17:27,707 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-19 11:17:27,716 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-19 11:17:27,729 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-19 11:17:27,734 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 2.341 seconds (process running for 2.537)
+2025-04-19 11:17:28,063 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /h2-console/login.do?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:17:28,071 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured POST /h2-console/login.do?jsessionid=09077598e32af10c30419ad9fb8fed5c
+2025-04-19 11:17:28,135 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/stylesheet.css
+2025-04-19 11:17:28,137 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/stylesheet.css
+2025-04-19 11:17:28,165 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/login.jsp?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:17:28,166 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/login.jsp?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:17:28,267 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/background.gif
+2025-04-19 11:17:28,268 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/background.gif
+2025-04-19 11:17:28,425 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-5] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-19 11:17:28,426 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-5] Initializing Servlet 'dispatcherServlet'
+2025-04-19 11:17:28,429 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-5] Completed initialization in 2 ms
+2025-04-19 11:17:28,431 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /favicon.ico
+2025-04-19 11:17:28,435 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-5] Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@2b7eab13, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=A3B1BD8AA21E742AA10040437FA6D7BB], Granted Authorities=[USER]]]
+2025-04-19 11:17:28,435 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /favicon.ico
+2025-04-19 11:17:28,491 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-04-19 11:17:32,752 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing POST /h2-console/login.do?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:17:32,754 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured POST /h2-console/login.do?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:17:32,786 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/header.jsp?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:17:32,786 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/tables.do?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:17:32,787 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/tables.do?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:17:32,787 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/header.jsp?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:17:32,801 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/help.jsp?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:17:32,801 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/help.jsp?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:17:32,803 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/query.jsp?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:17:32,807 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/query.jsp?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:17:32,833 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/icon_disconnect.gif
+2025-04-19 11:17:32,836 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/icon_disconnect.gif
+2025-04-19 11:17:32,844 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/icon_help.gif
+2025-04-19 11:17:32,845 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/icon_line.gif
+2025-04-19 11:17:32,845 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/icon_line.gif
+2025-04-19 11:17:32,845 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/icon_help.gif
+2025-04-19 11:17:32,847 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/icon_history.gif
+2025-04-19 11:17:32,849 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/icon_history.gif
+2025-04-19 11:17:32,853 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/icon_rollback.gif
+2025-04-19 11:17:32,854 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/icon_rollback.gif
+2025-04-19 11:17:32,854 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/icon_refresh.gif
+2025-04-19 11:17:32,856 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/icon_commit.gif
+2025-04-19 11:17:32,859 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/icon_commit.gif
+2025-04-19 11:17:32,860 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/icon_stop.gif
+2025-04-19 11:17:32,863 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/icon_run.gif
+2025-04-19 11:17:32,858 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/icon_refresh.gif
+2025-04-19 11:17:32,866 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/icon_help.gif
+2025-04-19 11:17:32,864 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/icon_stop.gif
+2025-04-19 11:17:32,867 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/icon_help.gif
+2025-04-19 11:17:32,864 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/icon_run.gif
+2025-04-19 11:17:32,868 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/icon_run_selected.gif
+2025-04-19 11:17:32,870 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/icon_run_selected.gif
+2025-04-19 11:17:32,869 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/icon_history.gif
+2025-04-19 11:17:32,871 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/icon_history.gif
+2025-04-19 11:17:32,874 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/icon_run_selected.gif
+2025-04-19 11:17:32,875 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/icon_run_selected.gif
+2025-04-19 11:17:32,903 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/tree.js
+2025-04-19 11:17:32,903 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/tree.js
+2025-04-19 11:17:32,911 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/tree_minus.gif
+2025-04-19 11:17:32,911 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/tree_database.gif
+2025-04-19 11:17:32,911 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/tree_column.gif
+2025-04-19 11:17:32,911 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/tree_minus.gif
+2025-04-19 11:17:32,911 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/tree_column.gif
+2025-04-19 11:17:32,911 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/tree_empty.gif
+2025-04-19 11:17:32,911 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/tree_plus.gif
+2025-04-19 11:17:32,911 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/tree_table.gif
+2025-04-19 11:17:32,911 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/tree_database.gif
+2025-04-19 11:17:32,911 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/tree_plus.gif
+2025-04-19 11:17:32,911 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/tree_empty.gif
+2025-04-19 11:17:32,911 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/tree_table.gif
+2025-04-19 11:17:32,916 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/tree_type.gif
+2025-04-19 11:17:32,916 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/tree_index_az.gif
+2025-04-19 11:17:32,916 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/tree_index.gif
+2025-04-19 11:17:32,917 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/tree_index_az.gif
+2025-04-19 11:17:32,917 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/tree_type.gif
+2025-04-19 11:17:32,917 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/tree_index.gif
+2025-04-19 11:17:32,917 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/tree_users.gif
+2025-04-19 11:17:32,917 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/tree_folder.gif
+2025-04-19 11:17:32,917 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/tree_info.gif
+2025-04-19 11:17:32,918 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/tree_users.gif
+2025-04-19 11:17:32,918 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/tree_folder.gif
+2025-04-19 11:17:32,918 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/tree_info.gif
+2025-04-19 11:17:32,921 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/tree_view.gif
+2025-04-19 11:17:32,921 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/tree_user.gif
+2025-04-19 11:17:32,921 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/tree_view.gif
+2025-04-19 11:17:32,921 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/tree_user.gif
+2025-04-19 11:17:32,962 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /favicon.ico
+2025-04-19 11:17:32,964 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-1] Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@2b7eab13, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=A3B1BD8AA21E742AA10040437FA6D7BB], Granted Authorities=[USER]]]
+2025-04-19 11:17:32,964 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /favicon.ico
+2025-04-19 11:17:32,975 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-04-19 11:17:37,201 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing POST /h2-console/query.do?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:17:37,203 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured POST /h2-console/query.do?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:17:37,236 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/table.js
+2025-04-19 11:17:37,248 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/table.js
+2025-04-19 11:18:55,092 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing PATCH /api/users/1/AdminState
+2025-04-19 11:18:55,099 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:18:55,123 DEBUG o.s.s.w.s.HttpSessionRequestCache [http-nio-8080-exec-8] Saved request http://localhost:8080/api/users/1/AdminState?continue to session
+2025-04-19 11:18:55,124 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-8] Redirecting to http://localhost:8080/login
+2025-04-19 11:18:59,413 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /h2-console/query.do?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:18:59,424 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured POST /h2-console/query.do?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:18:59,451 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/stylesheet.css
+2025-04-19 11:18:59,453 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/stylesheet.css
+2025-04-19 11:18:59,471 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/table.js
+2025-04-19 11:18:59,472 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/table.js
+2025-04-19 11:19:04,687 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /h2-console/query.do?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:19:04,697 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured POST /h2-console/query.do?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:19:06,032 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing POST /h2-console/query.do?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:19:06,046 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured POST /h2-console/query.do?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:20:16,835 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing PATCH /api/users/1/AdminState
+2025-04-19 11:20:16,838 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:20:16,840 DEBUG o.s.s.w.s.HttpSessionRequestCache [http-nio-8080-exec-8] Saved request http://localhost:8080/api/users/1/AdminState?continue to session
+2025-04-19 11:20:16,841 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-8] Redirecting to http://localhost:8080/login
+2025-04-19 11:20:21,109 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing PATCH /api/users/1/AdminStat
+2025-04-19 11:20:21,109 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:20:21,111 DEBUG o.s.s.w.s.HttpSessionRequestCache [http-nio-8080-exec-1] Saved request http://localhost:8080/api/users/1/AdminStat?continue to session
+2025-04-19 11:20:21,111 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-19 11:20:28,557 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing PATCH /api/users/1/AdminState
+2025-04-19 11:20:28,558 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:20:28,559 DEBUG o.s.s.w.s.HttpSessionRequestCache [http-nio-8080-exec-7] Saved request http://localhost:8080/api/users/1/AdminState?continue to session
+2025-04-19 11:20:28,560 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-7] Redirecting to http://localhost:8080/login
+2025-04-19 11:20:57,781 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/games
+2025-04-19 11:20:57,795 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:20:57,800 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-9] Redirecting to http://localhost:8080/login
+2025-04-19 11:20:57,805 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/games
+2025-04-19 11:20:57,807 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:20:57,808 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-5] Redirecting to http://localhost:8080/login
+2025-04-19 11:20:57,809 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-19 11:20:57,830 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /login
+2025-04-19 11:21:11,769 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/users/all
+2025-04-19 11:21:11,770 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:21:11,771 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-19 11:21:11,775 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/users/all
+2025-04-19 11:21:11,776 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:21:11,776 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-2] Redirecting to http://localhost:8080/login
+2025-04-19 11:21:11,777 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /login
+2025-04-19 11:21:11,783 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /login
+2025-04-19 11:22:58,489 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/users/all
+2025-04-19 11:22:58,498 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:22:58,500 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-6] Redirecting to http://localhost:8080/login
+2025-04-19 11:22:58,502 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/users/all
+2025-04-19 11:22:58,505 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:22:58,508 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-10] Redirecting to http://localhost:8080/login
+2025-04-19 11:22:58,528 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /login
+2025-04-19 11:22:58,535 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-19 11:23:00,214 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/users/all
+2025-04-19 11:23:00,234 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:23:00,236 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-19 11:23:00,239 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/users/all
+2025-04-19 11:23:00,240 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:23:00,240 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-2] Redirecting to http://localhost:8080/login
+2025-04-19 11:23:00,241 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /login
+2025-04-19 11:23:00,282 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /login
+2025-04-19 11:23:10,571 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing POST /api/login
+2025-04-19 11:23:10,902 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-6] Authenticated user
+2025-04-19 11:23:10,903 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-6] Changed session id from 282DA6E6EFC2354901F0FC6B5C421BAC
+2025-04-19 11:23:10,904 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-6] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@1e5ce5a3, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=282DA6E6EFC2354901F0FC6B5C421BAC], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@2e1296b6]
+2025-04-19 11:23:10,904 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-6] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@1e5ce5a3, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=282DA6E6EFC2354901F0FC6B5C421BAC], Granted Authorities=[USER]]
+2025-04-19 11:23:21,995 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /api/login
+2025-04-19 11:23:22,211 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-8] Authenticated user
+2025-04-19 11:23:22,214 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-8] Changed session id from 0BB69557E5C770563390B0ECE23514B7
+2025-04-19 11:23:22,215 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-8] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@3b19b870, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=0BB69557E5C770563390B0ECE23514B7], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@2e1296b6]
+2025-04-19 11:23:22,215 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-8] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@3b19b870, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=0BB69557E5C770563390B0ECE23514B7], Granted Authorities=[USER]]
+2025-04-19 11:24:08,875 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing DELETE /api/users/2/
+2025-04-19 11:24:08,878 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:24:08,880 DEBUG o.s.s.w.s.HttpSessionRequestCache [http-nio-8080-exec-1] Saved request http://localhost:8080/api/users/2/?continue to session
+2025-04-19 11:24:08,883 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-19 11:24:12,000 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing POST /h2-console/query.do?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:24:12,003 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured POST /h2-console/query.do?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:24:12,046 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/stylesheet.css
+2025-04-19 11:24:12,052 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/stylesheet.css
+2025-04-19 11:24:12,054 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/table.js
+2025-04-19 11:24:12,055 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/table.js
+2025-04-19 11:24:42,459 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/users/
+2025-04-19 11:24:42,462 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:24:42,463 DEBUG o.s.s.w.s.HttpSessionRequestCache [http-nio-8080-exec-10] Saved request http://localhost:8080/api/users/?continue to session
+2025-04-19 11:24:42,463 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-10] Redirecting to http://localhost:8080/login
+2025-04-19 11:33:20,470 INFO o.s.b.w.e.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-19 11:33:20,500 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-19 11:33:20,516 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-19 11:33:20,533 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-04-19 11:33:20,537 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-04-19 11:34:48,468 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-04-19 11:34:48,492 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.2 with PID 85549 (/Users/benschwarz/Documents/GitHub/Game-Tracker/Game Tracker/demo/target/classes started by benschwarz in /Users/benschwarz/Documents/GitHub/Game-Tracker/Game Tracker/demo)
+2025-04-19 11:34:48,493 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-19 11:34:48,493 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-19 11:34:48,517 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-19 11:34:48,517 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-19 11:34:48,756 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-19 11:34:48,775 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2025-04-19 11:34:49,131 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-19 11:34:49,138 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-19 11:34:49,139 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-19 11:34:49,139 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-19 11:34:49,156 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-19 11:34:49,157 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 640 ms
+2025-04-19 11:34:49,247 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-19 11:34:49,276 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-19 11:34:49,294 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-19 11:34:49,405 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-19 11:34:49,418 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-04-19 11:34:49,517 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./GTdb user=SA
+2025-04-19 11:34:49,518 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-04-19 11:34:49,530 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-19 11:34:49,538 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-19 11:34:49,930 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-19 11:34:49,953 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-19 11:34:50,145 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-19 11:34:50,163 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-19 11:34:50,164 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-19 11:34:50,289 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-19 11:34:50,378 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./GTdb'
+2025-04-19 11:34:50,408 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-19 11:34:50,417 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-19 11:34:50,428 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-19 11:34:50,434 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 2.158 seconds (process running for 2.345)
+2025-04-19 11:36:29,223 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-19 11:36:29,224 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-04-19 11:36:29,227 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2025-04-19 11:36:29,240 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /api/login
+2025-04-19 11:36:29,527 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-1] Authenticated user
+2025-04-19 11:36:29,534 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-1] Changed session id from D3FCB021CD1543FB2E2EC0FB3967EE38
+2025-04-19 11:36:29,535 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-1] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@607fbf71, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=D3FCB021CD1543FB2E2EC0FB3967EE38], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@36f4f69d]
+2025-04-19 11:36:29,535 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-1] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@607fbf71, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=D3FCB021CD1543FB2E2EC0FB3967EE38], Granted Authorities=[USER]]
+2025-04-19 11:36:33,372 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing POST /h2-console/query.do?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:36:33,375 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured POST /h2-console/query.do?jsessionid=bd54eb5d2fdb98ab3353c5283dd19a29
+2025-04-19 11:36:33,404 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/stylesheet.css
+2025-04-19 11:36:33,405 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/stylesheet.css
+2025-04-19 11:36:33,419 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/login.jsp?jsessionid=bc9281fa7d30438c246ebf2ad210e00b
+2025-04-19 11:36:33,420 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/login.jsp?jsessionid=bc9281fa7d30438c246ebf2ad210e00b
+2025-04-19 11:36:33,438 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/login.jsp
+2025-04-19 11:36:33,438 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/background.gif
+2025-04-19 11:36:33,438 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/login.jsp
+2025-04-19 11:36:33,438 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/background.gif
+2025-04-19 11:36:33,500 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/login.jsp?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:36:33,501 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/login.jsp?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:36:33,680 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /favicon.ico
+2025-04-19 11:36:33,682 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-8] Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@607fbf71, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=D3FCB021CD1543FB2E2EC0FB3967EE38], Granted Authorities=[USER]]]
+2025-04-19 11:36:33,682 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /favicon.ico
+2025-04-19 11:36:33,740 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-04-19 11:36:37,796 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing POST /h2-console/login.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:36:37,798 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured POST /h2-console/login.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:36:37,846 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/header.jsp?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:36:37,849 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/header.jsp?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:36:37,849 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/tables.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:36:37,850 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/tables.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:36:37,850 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/help.jsp?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:36:37,851 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/help.jsp?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:36:37,853 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/query.jsp?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:36:37,853 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/query.jsp?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:36:37,877 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/icon_disconnect.gif
+2025-04-19 11:36:37,877 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/icon_history.gif
+2025-04-19 11:36:37,877 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/icon_line.gif
+2025-04-19 11:36:37,877 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/icon_help.gif
+2025-04-19 11:36:37,878 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/icon_line.gif
+2025-04-19 11:36:37,878 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/icon_refresh.gif
+2025-04-19 11:36:37,878 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/icon_disconnect.gif
+2025-04-19 11:36:37,878 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/icon_history.gif
+2025-04-19 11:36:37,879 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/icon_refresh.gif
+2025-04-19 11:36:37,878 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/icon_help.gif
+2025-04-19 11:36:37,889 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/icon_commit.gif
+2025-04-19 11:36:37,890 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/icon_commit.gif
+2025-04-19 11:36:37,889 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/icon_stop.gif
+2025-04-19 11:36:37,891 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/icon_rollback.gif
+2025-04-19 11:36:37,891 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/icon_run_selected.gif
+2025-04-19 11:36:37,891 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/icon_stop.gif
+2025-04-19 11:36:37,892 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/icon_run_selected.gif
+2025-04-19 11:36:37,892 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/icon_rollback.gif
+2025-04-19 11:36:37,892 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/icon_run.gif
+2025-04-19 11:36:37,893 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/icon_run.gif
+2025-04-19 11:36:37,976 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/tree.js
+2025-04-19 11:36:37,977 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/tree.js
+2025-04-19 11:36:37,985 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/tree_table.gif
+2025-04-19 11:36:37,985 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/tree_minus.gif
+2025-04-19 11:36:37,985 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/tree_database.gif
+2025-04-19 11:36:37,985 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/tree_column.gif
+2025-04-19 11:36:37,985 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/tree_database.gif
+2025-04-19 11:36:37,985 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/tree_table.gif
+2025-04-19 11:36:37,985 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/tree_column.gif
+2025-04-19 11:36:37,985 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/tree_empty.gif
+2025-04-19 11:36:37,986 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/tree_plus.gif
+2025-04-19 11:36:37,986 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/tree_minus.gif
+2025-04-19 11:36:37,986 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/tree_empty.gif
+2025-04-19 11:36:37,986 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/tree_plus.gif
+2025-04-19 11:36:37,988 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/tree_folder.gif
+2025-04-19 11:36:37,988 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/tree_folder.gif
+2025-04-19 11:36:37,990 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/tree_users.gif
+2025-04-19 11:36:37,990 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/tree_info.gif
+2025-04-19 11:36:37,990 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/tree_users.gif
+2025-04-19 11:36:37,991 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/tree_info.gif
+2025-04-19 11:36:37,991 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/tree_type.gif
+2025-04-19 11:36:37,991 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/tree_type.gif
+2025-04-19 11:36:37,991 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/tree_index.gif
+2025-04-19 11:36:37,992 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/tree_index.gif
+2025-04-19 11:36:37,992 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/tree_index_az.gif
+2025-04-19 11:36:37,992 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/tree_index_az.gif
+2025-04-19 11:36:37,993 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/tree_view.gif
+2025-04-19 11:36:37,993 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/tree_view.gif
+2025-04-19 11:36:37,995 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/tree_user.gif
+2025-04-19 11:36:37,995 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/tree_user.gif
+2025-04-19 11:36:38,048 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /favicon.ico
+2025-04-19 11:36:38,049 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-9] Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@607fbf71, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=D3FCB021CD1543FB2E2EC0FB3967EE38], Granted Authorities=[USER]]]
+2025-04-19 11:36:38,050 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /favicon.ico
+2025-04-19 11:36:38,057 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-04-19 11:36:44,395 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:36:44,398 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured POST /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:36:44,434 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/stylesheet.css
+2025-04-19 11:36:44,437 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/table.js
+2025-04-19 11:36:44,437 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/stylesheet.css
+2025-04-19 11:36:44,438 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/table.js
+2025-04-19 11:36:59,266 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing OPTIONS /api/users/register
+2025-04-19 11:36:59,276 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing POST /api/users/register
+2025-04-19 11:36:59,277 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured POST /api/users/register
+2025-04-19 11:36:59,463 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:37:03,507 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing POST /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:37:03,512 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured POST /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:37:03,535 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/stylesheet.css
+2025-04-19 11:37:03,536 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/table.js
+2025-04-19 11:37:03,536 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/table.js
+2025-04-19 11:37:03,536 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/stylesheet.css
+2025-04-19 11:37:16,716 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing DELETE /api/users/2/
+2025-04-19 11:37:16,717 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:37:16,729 DEBUG o.s.s.w.s.HttpSessionRequestCache [http-nio-8080-exec-10] Saved request http://localhost:8080/api/users/2/?continue to session
+2025-04-19 11:37:16,731 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-10] Redirecting to http://localhost:8080/login
+2025-04-19 11:37:19,857 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:37:19,866 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured POST /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:37:19,891 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/stylesheet.css
+2025-04-19 11:37:19,894 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/stylesheet.css
+2025-04-19 11:37:19,894 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/table.js
+2025-04-19 11:37:19,895 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/table.js
+2025-04-19 11:37:20,060 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:37:20,061 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured POST /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:37:20,210 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing POST /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:37:20,211 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured POST /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:37:20,410 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:37:20,411 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured POST /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:37:20,660 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing POST /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:37:20,661 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured POST /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:38:08,722 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing DELETE /api/users/2
+2025-04-19 11:38:08,725 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:38:08,726 DEBUG o.s.s.w.s.HttpSessionRequestCache [http-nio-8080-exec-9] Saved request http://localhost:8080/api/users/2?continue to session
+2025-04-19 11:38:08,727 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-9] Redirecting to http://localhost:8080/login
+2025-04-19 11:38:12,252 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing POST /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:38:12,256 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured POST /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 11:38:12,296 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/stylesheet.css
+2025-04-19 11:38:12,296 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/table.js
+2025-04-19 11:38:12,297 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/table.js
+2025-04-19 11:38:12,297 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/stylesheet.css
+2025-04-19 11:41:39,376 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing POST /api/login
+2025-04-19 11:41:39,520 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-4] Authenticated user
+2025-04-19 11:41:39,521 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-4] Changed session id from AB2114B59F35E89D5201D1F6233D12CA
+2025-04-19 11:41:39,521 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-4] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@270907ed, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=AB2114B59F35E89D5201D1F6233D12CA], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@36f4f69d]
+2025-04-19 11:41:39,522 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-4] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@270907ed, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=AB2114B59F35E89D5201D1F6233D12CA], Granted Authorities=[USER]]
+2025-04-19 11:41:53,197 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /api/games
+2025-04-19 11:41:53,202 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:41:53,204 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-8] Redirecting to http://localhost:8080/login
+2025-04-19 11:41:53,208 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/games
+2025-04-19 11:41:53,209 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:41:53,211 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-10] Redirecting to http://localhost:8080/login
+2025-04-19 11:41:53,213 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /login
+2025-04-19 11:41:53,258 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /login
+2025-04-19 11:42:00,040 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/games
+2025-04-19 11:42:00,051 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:42:00,053 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-6] Redirecting to http://localhost:8080/login
+2025-04-19 11:42:00,057 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/games
+2025-04-19 11:42:00,059 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:42:00,060 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-5] Redirecting to http://localhost:8080/login
+2025-04-19 11:42:00,061 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /login
+2025-04-19 11:42:00,067 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /login
+2025-04-19 11:43:18,451 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/users/all
+2025-04-19 11:43:18,458 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:43:18,461 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-10] Redirecting to http://localhost:8080/login
+2025-04-19 11:43:18,469 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/users/all
+2025-04-19 11:43:18,470 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /login
+2025-04-19 11:43:18,470 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:43:18,471 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-9] Redirecting to http://localhost:8080/login
+2025-04-19 11:43:18,478 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-19 11:44:31,645 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/users/all
+2025-04-19 11:44:31,655 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:44:31,657 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-19 11:44:31,665 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/users/all
+2025-04-19 11:44:31,666 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:44:31,667 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-19 11:44:31,701 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /login
+2025-04-19 11:44:31,713 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-19 11:44:34,361 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/games
+2025-04-19 11:44:34,364 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:44:34,368 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-3] Redirecting to http://localhost:8080/login
+2025-04-19 11:44:34,374 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/games
+2025-04-19 11:44:34,376 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:44:34,377 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /login
+2025-04-19 11:44:34,377 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-6] Redirecting to http://localhost:8080/login
+2025-04-19 11:44:34,391 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /login
+2025-04-19 11:44:37,279 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/games
+2025-04-19 11:44:37,289 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:44:37,299 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-2] Redirecting to http://localhost:8080/login
+2025-04-19 11:44:37,307 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/games
+2025-04-19 11:44:37,308 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:44:37,308 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-19 11:44:37,315 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /login
+2025-04-19 11:44:37,328 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-19 11:47:53,003 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/games
+2025-04-19 11:47:53,014 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:47:53,055 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-3] Redirecting to http://localhost:8080/login
+2025-04-19 11:47:53,063 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/games
+2025-04-19 11:47:53,064 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:47:53,065 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-19 11:47:53,065 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-7] Redirecting to http://localhost:8080/login
+2025-04-19 11:47:53,070 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /login
+2025-04-19 11:55:34,301 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /api/games
+2025-04-19 11:55:34,310 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:55:34,312 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-8] Redirecting to http://localhost:8080/login
+2025-04-19 11:55:34,314 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /api/games
+2025-04-19 11:55:34,315 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:55:34,316 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-4] Redirecting to http://localhost:8080/login
+2025-04-19 11:55:34,342 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /login
+2025-04-19 11:55:34,347 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /login
+2025-04-19 11:55:35,572 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/games
+2025-04-19 11:55:35,574 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:55:35,576 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-3] Redirecting to http://localhost:8080/login
+2025-04-19 11:55:35,581 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/games
+2025-04-19 11:55:35,584 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:55:35,585 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-19 11:55:35,586 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-7] Redirecting to http://localhost:8080/login
+2025-04-19 11:55:35,591 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /login
+2025-04-19 11:55:45,460 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /api/games
+2025-04-19 11:55:45,465 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:55:45,468 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-8] Redirecting to http://localhost:8080/login
+2025-04-19 11:55:45,478 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /api/games
+2025-04-19 11:55:45,479 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:55:45,480 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-4] Redirecting to http://localhost:8080/login
+2025-04-19 11:55:45,510 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /login
+2025-04-19 11:55:45,526 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /login
+2025-04-19 11:55:47,278 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/users/all
+2025-04-19 11:55:47,282 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:55:47,284 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-3] Redirecting to http://localhost:8080/login
+2025-04-19 11:55:47,287 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/users/all
+2025-04-19 11:55:47,289 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:55:47,291 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-7] Redirecting to http://localhost:8080/login
+2025-04-19 11:55:47,292 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-19 11:55:47,297 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /login
+2025-04-19 11:56:00,118 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /api/users/all
+2025-04-19 11:56:00,135 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:00,136 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-8] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:00,139 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /api/users/all
+2025-04-19 11:56:00,144 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:00,147 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-4] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:00,174 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /login
+2025-04-19 11:56:00,179 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /login
+2025-04-19 11:56:01,434 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/games
+2025-04-19 11:56:01,440 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:01,442 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-3] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:01,446 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/games
+2025-04-19 11:56:01,448 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:01,451 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-7] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:01,451 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-19 11:56:01,456 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /login
+2025-04-19 11:56:02,653 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/games
+2025-04-19 11:56:02,656 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:02,657 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-2] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:02,660 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/games
+2025-04-19 11:56:02,661 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:02,661 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:02,678 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /login
+2025-04-19 11:56:02,682 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-19 11:56:03,537 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/users/all
+2025-04-19 11:56:03,543 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:03,544 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-3] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:03,552 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/users/all
+2025-04-19 11:56:03,557 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:03,559 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-7] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:03,553 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-19 11:56:03,564 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /login
+2025-04-19 11:56:04,920 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/users/all
+2025-04-19 11:56:04,925 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:04,932 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-2] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:04,946 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/users/all
+2025-04-19 11:56:04,949 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:04,950 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:04,950 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /login
+2025-04-19 11:56:04,970 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-19 11:56:14,674 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/games
+2025-04-19 11:56:14,683 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:14,686 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-3] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:14,689 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/games
+2025-04-19 11:56:14,691 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-19 11:56:14,691 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:14,693 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-7] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:14,704 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /login
+2025-04-19 11:56:16,352 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/games
+2025-04-19 11:56:16,353 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:16,354 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-2] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:16,356 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/games
+2025-04-19 11:56:16,358 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:16,358 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:16,381 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /login
+2025-04-19 11:56:16,385 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-19 11:56:17,184 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/users/all
+2025-04-19 11:56:17,186 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:17,187 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-10] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:17,191 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/users/all
+2025-04-19 11:56:17,193 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /login
+2025-04-19 11:56:17,193 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:17,194 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-9] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:17,200 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /login
+2025-04-19 11:56:19,204 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/users/all
+2025-04-19 11:56:19,219 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:19,222 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-2] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:19,226 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/users/all
+2025-04-19 11:56:19,227 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 11:56:19,227 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-19 11:56:19,238 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /login
+2025-04-19 11:56:19,242 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-19 12:05:41,127 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/games
+2025-04-19 12:05:41,162 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 12:05:41,171 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-3] Redirecting to http://localhost:8080/login
+2025-04-19 12:05:41,176 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/games
+2025-04-19 12:05:41,177 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 12:05:41,178 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-7] Redirecting to http://localhost:8080/login
+2025-04-19 12:05:41,178 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /login
+2025-04-19 12:05:41,182 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-19 12:05:45,348 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /api/games
+2025-04-19 12:05:45,361 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 12:05:45,363 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-8] Redirecting to http://localhost:8080/login
+2025-04-19 12:05:45,389 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/games
+2025-04-19 12:05:45,390 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 12:05:45,394 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-10] Redirecting to http://localhost:8080/login
+2025-04-19 12:05:45,394 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-19 12:05:45,448 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /login
+2025-04-19 12:05:47,022 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/users/all
+2025-04-19 12:05:47,023 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 12:05:47,023 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-3] Redirecting to http://localhost:8080/login
+2025-04-19 12:05:47,027 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/users/all
+2025-04-19 12:05:47,029 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 12:05:47,031 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-7] Redirecting to http://localhost:8080/login
+2025-04-19 12:05:47,032 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /login
+2025-04-19 12:05:47,037 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-19 12:05:49,359 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /api/users/all
+2025-04-19 12:05:49,365 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 12:05:49,368 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-8] Redirecting to http://localhost:8080/login
+2025-04-19 12:05:49,372 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/users/all
+2025-04-19 12:05:49,377 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 12:05:49,377 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-10] Redirecting to http://localhost:8080/login
+2025-04-19 12:05:49,387 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-19 12:05:49,389 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /login
+2025-04-19 12:31:14,257 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/games
+2025-04-19 12:31:14,295 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 12:31:14,301 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-5] Redirecting to http://localhost:8080/login
+2025-04-19 12:31:14,309 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/games
+2025-04-19 12:31:14,311 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 12:31:14,312 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-6] Redirecting to http://localhost:8080/login
+2025-04-19 12:31:14,319 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /login
+2025-04-19 12:31:14,333 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /login
+2025-04-19 12:31:23,595 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /api/users/all
+2025-04-19 12:31:23,604 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 12:31:23,606 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-4] Redirecting to http://localhost:8080/login
+2025-04-19 12:31:23,612 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/users/all
+2025-04-19 12:31:23,613 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 12:31:23,613 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /login
+2025-04-19 12:31:23,614 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-9] Redirecting to http://localhost:8080/login
+2025-04-19 12:31:23,616 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /login
+2025-04-19 12:36:07,723 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s676ms).
+2025-04-19 13:01:08,356 INFO o.s.b.w.e.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-19 13:01:08,376 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-19 13:01:08,383 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-19 13:01:08,389 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-04-19 13:01:08,393 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-04-19 13:17:52,087 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-04-19 13:17:52,114 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.2 with PID 88608 (/Users/benschwarz/Documents/GitHub/Game-Tracker/Game Tracker/demo/target/classes started by benschwarz in /Users/benschwarz/Documents/GitHub/Game-Tracker/Game Tracker/demo)
+2025-04-19 13:17:52,114 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-19 13:17:52,115 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-19 13:17:52,139 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-19 13:17:52,139 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-19 13:17:52,382 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-19 13:17:52,402 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2025-04-19 13:17:52,758 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-19 13:17:52,765 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-19 13:17:52,766 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-19 13:17:52,766 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-19 13:17:52,783 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-19 13:17:52,784 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 644 ms
+2025-04-19 13:17:52,851 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-19 13:17:52,875 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-19 13:17:52,890 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-19 13:17:53,005 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-19 13:17:53,018 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-04-19 13:17:53,116 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./GTdb user=SA
+2025-04-19 13:17:53,117 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-04-19 13:17:53,131 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-19 13:17:53,139 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-19 13:17:53,534 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-19 13:17:53,557 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-19 13:17:53,750 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-19 13:17:53,770 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-19 13:17:53,770 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-19 13:17:53,896 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-19 13:17:53,984 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./GTdb'
+2025-04-19 13:17:54,015 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-19 13:17:54,023 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-19 13:17:54,031 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-19 13:17:54,037 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 2.141 seconds (process running for 2.325)
+2025-04-19 13:18:26,637 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-19 13:18:26,638 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-04-19 13:18:26,643 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2025-04-19 13:18:26,655 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/games
+2025-04-19 13:18:26,671 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 13:18:26,672 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-19 13:18:26,675 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/games
+2025-04-19 13:18:26,676 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 13:18:26,677 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-2] Redirecting to http://localhost:8080/login
+2025-04-19 13:18:26,680 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /login
+2025-04-19 13:18:26,687 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-19 13:18:31,645 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/games
+2025-04-19 13:18:31,656 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 13:18:31,658 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-5] Redirecting to http://localhost:8080/login
+2025-04-19 13:18:31,668 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/games
+2025-04-19 13:18:31,669 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 13:18:31,670 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-6] Redirecting to http://localhost:8080/login
+2025-04-19 13:18:31,670 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /login
+2025-04-19 13:18:31,673 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /login
+2025-04-19 13:22:53,070 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 13:22:53,075 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/query.do?jsessionid=8f413b45824cd64c3da02c613f249fa9
+2025-04-19 13:22:53,139 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/stylesheet.css
+2025-04-19 13:22:53,141 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/stylesheet.css
+2025-04-19 13:22:53,168 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/login.jsp?jsessionid=59b8a65a9538e3cbb68b4536fe5299c5
+2025-04-19 13:22:53,168 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/login.jsp?jsessionid=59b8a65a9538e3cbb68b4536fe5299c5
+2025-04-19 13:22:53,199 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/background.gif
+2025-04-19 13:22:53,200 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/background.gif
+2025-04-19 13:22:53,395 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /favicon.ico
+2025-04-19 13:22:53,396 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 13:22:53,396 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-5] Redirecting to http://localhost:8080/login
+2025-04-19 13:22:53,427 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-19 13:22:57,855 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing POST /h2-console/login.do?jsessionid=59b8a65a9538e3cbb68b4536fe5299c5
+2025-04-19 13:22:57,857 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured POST /h2-console/login.do?jsessionid=59b8a65a9538e3cbb68b4536fe5299c5
+2025-04-19 13:22:57,894 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/tables.do?jsessionid=59b8a65a9538e3cbb68b4536fe5299c5
+2025-04-19 13:22:57,898 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/tables.do?jsessionid=59b8a65a9538e3cbb68b4536fe5299c5
+2025-04-19 13:22:57,907 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/query.jsp?jsessionid=59b8a65a9538e3cbb68b4536fe5299c5
+2025-04-19 13:22:57,907 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/help.jsp?jsessionid=59b8a65a9538e3cbb68b4536fe5299c5
+2025-04-19 13:22:57,907 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/header.jsp?jsessionid=59b8a65a9538e3cbb68b4536fe5299c5
+2025-04-19 13:22:57,908 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/help.jsp?jsessionid=59b8a65a9538e3cbb68b4536fe5299c5
+2025-04-19 13:22:57,908 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/query.jsp?jsessionid=59b8a65a9538e3cbb68b4536fe5299c5
+2025-04-19 13:22:57,911 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/header.jsp?jsessionid=59b8a65a9538e3cbb68b4536fe5299c5
+2025-04-19 13:22:57,946 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/icon_help.gif
+2025-04-19 13:22:57,942 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/icon_disconnect.gif
+2025-04-19 13:22:57,949 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/icon_line.gif
+2025-04-19 13:22:57,950 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/icon_line.gif
+2025-04-19 13:22:57,949 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/icon_history.gif
+2025-04-19 13:22:57,950 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/icon_history.gif
+2025-04-19 13:22:57,948 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/icon_help.gif
+2025-04-19 13:22:57,948 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/icon_run.gif
+2025-04-19 13:22:57,949 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/icon_disconnect.gif
+2025-04-19 13:22:57,958 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/icon_run.gif
+2025-04-19 13:22:57,968 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/icon_commit.gif
+2025-04-19 13:22:57,968 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/icon_refresh.gif
+2025-04-19 13:22:57,969 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/icon_commit.gif
+2025-04-19 13:22:57,969 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/icon_stop.gif
+2025-04-19 13:22:57,969 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/icon_rollback.gif
+2025-04-19 13:22:57,969 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/icon_stop.gif
+2025-04-19 13:22:57,970 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/icon_rollback.gif
+2025-04-19 13:22:57,970 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/icon_refresh.gif
+2025-04-19 13:22:57,971 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/icon_run_selected.gif
+2025-04-19 13:22:57,972 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/icon_run_selected.gif
+2025-04-19 13:22:58,022 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/tree.js
+2025-04-19 13:22:58,023 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/tree.js
+2025-04-19 13:22:58,031 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/tree_column.gif
+2025-04-19 13:22:58,031 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /h2-console/tree_database.gif
+2025-04-19 13:22:58,031 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /h2-console/tree_plus.gif
+2025-04-19 13:22:58,031 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /h2-console/tree_empty.gif
+2025-04-19 13:22:58,031 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/tree_table.gif
+2025-04-19 13:22:58,031 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /h2-console/tree_plus.gif
+2025-04-19 13:22:58,031 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/tree_minus.gif
+2025-04-19 13:22:58,031 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /h2-console/tree_database.gif
+2025-04-19 13:22:58,031 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/tree_column.gif
+2025-04-19 13:22:58,031 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /h2-console/tree_empty.gif
+2025-04-19 13:22:58,031 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/tree_minus.gif
+2025-04-19 13:22:58,031 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/tree_table.gif
+2025-04-19 13:22:58,035 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /h2-console/tree_folder.gif
+2025-04-19 13:22:58,035 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/tree_info.gif
+2025-04-19 13:22:58,035 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /h2-console/tree_users.gif
+2025-04-19 13:22:58,035 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /h2-console/tree_folder.gif
+2025-04-19 13:22:58,035 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/tree_info.gif
+2025-04-19 13:22:58,036 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /h2-console/tree_users.gif
+2025-04-19 13:22:58,038 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /h2-console/tree_index.gif
+2025-04-19 13:22:58,038 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /h2-console/tree_index_az.gif
+2025-04-19 13:22:58,038 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /h2-console/tree_index.gif
+2025-04-19 13:22:58,038 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /h2-console/tree_type.gif
+2025-04-19 13:22:58,039 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /h2-console/tree_index_az.gif
+2025-04-19 13:22:58,039 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /h2-console/tree_type.gif
+2025-04-19 13:22:58,039 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /h2-console/tree_user.gif
+2025-04-19 13:22:58,039 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /h2-console/tree_user.gif
+2025-04-19 13:22:58,039 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/tree_view.gif
+2025-04-19 13:22:58,040 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/tree_view.gif
+2025-04-19 13:22:58,082 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /favicon.ico
+2025-04-19 13:22:58,085 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-19 13:22:58,089 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-8] Redirecting to http://localhost:8080/login
+2025-04-19 13:22:58,108 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /login
+2025-04-19 13:23:01,431 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /h2-console/query.do?jsessionid=59b8a65a9538e3cbb68b4536fe5299c5
+2025-04-19 13:23:01,436 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured POST /h2-console/query.do?jsessionid=59b8a65a9538e3cbb68b4536fe5299c5
+2025-04-19 13:23:01,479 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /h2-console/table.js
+2025-04-19 13:23:01,479 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /h2-console/table.js
+2025-04-19 14:04:05,449 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m40s10ms).
+2025-04-19 14:20:32,253 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m24s158ms).
+2025-04-19 14:50:01,113 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m51s700ms).
+2025-04-19 15:14:23,493 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m22s90ms).
+2025-04-19 15:27:20,919 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m57s336ms).
+2025-04-19 15:36:48,354 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m27s437ms).
+2025-04-19 15:38:49,999 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m31s648ms).
+2025-04-19 16:00:28,717 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m8s565ms).
+2025-04-19 16:18:39,450 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m10s735ms).
+2025-04-19 16:24:00,355 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m20s905ms).
+2025-04-19 16:50:31,208 INFO o.s.b.w.e.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-19 16:50:31,241 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-19 16:50:31,250 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-19 16:50:31,270 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-04-19 16:50:31,271 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
