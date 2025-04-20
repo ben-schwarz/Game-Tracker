@@ -37,6 +37,9 @@ public class User implements UserDetails {
     @Column(name = "enabled")
     private boolean enabled = true;  // Defaulting to true for simplification
 
+    @Column(name = "AdminState")
+    private boolean AdminState = false;
+
     @OneToMany(mappedBy = "user")
     @JsonManagedReference
     private List<Game> games; // List of games the user owns/plays
@@ -83,6 +86,14 @@ public class User implements UserDetails {
 
     public void setEnabled(boolean enabled) {
         this.enabled = enabled;
+    }
+
+    public boolean getAdminState() {
+        return AdminState;
+    }
+
+    public void setAdminState(boolean state) {
+        this.AdminState = state;
     }
 
     public List<Game> getGames() {
