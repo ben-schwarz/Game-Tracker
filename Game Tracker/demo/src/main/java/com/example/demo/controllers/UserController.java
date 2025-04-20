@@ -66,13 +66,6 @@ public class UserController {
         return userService.findAll();
     }
 
-    @DeleteMapping("/{id}")
-    @ResponseBody
-    void deleteUserById(@PathVariable String id) {
-        userService.deleteUserById(Long.valueOf(id));
-        return;
-    }
-
     @GetMapping("/me")
     public ResponseEntity<?> getCurrentUser(Authentication authentication) {
         if (authentication == null) {
@@ -80,12 +73,5 @@ public class UserController {
         }
         Object principal = authentication.getPrincipal();
         return ResponseEntity.ok(principal);
-    }
-
-    @PatchMapping("/{id}/AdminState")
-    public ResponseEntity<?> setPassword(@PathVariable String id) {
-        userService.changeAdminState(Long.parseLong(id), true);
-
-        return ResponseEntity.ok(Map.of("message", "Admin status changed successfully!"));
     }
 }

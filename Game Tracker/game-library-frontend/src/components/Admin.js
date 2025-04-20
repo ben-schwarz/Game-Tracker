@@ -8,8 +8,6 @@ function Admin() {
     useEffect(() => {
         axios.get(API_ENDPOINT + '/users/all')
             .then(response => {
-                console.log(response);
-                console.log(response.data)
                 setUsers(response.data);
             })
             .catch(error => console.error('Error fetching users:', error));
@@ -50,7 +48,7 @@ function Admin() {
                 </tr>
                 </thead>
                 <tbody>
-                {users.response.map((data) => {
+                {users.map((data) => {
                     return (
                         <tr>
                             <TableCell>

@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import java.util.Collections;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class UserService implements UserDetailsService {
@@ -43,13 +42,6 @@ public class UserService implements UserDetailsService {
 
     public void deleteUserById(Long id) {
         userRepository.deleteById(id);
-        return;
-    }
-
-    public void changeAdminState(Long id, boolean AdminState) {
-        Optional<User> myUser = userRepository.findById(id);
-        myUser.get().setAdminState(AdminState);
-
         return;
     }
     // Add more methods as needed
