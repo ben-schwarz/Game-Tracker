@@ -76,5 +76,11 @@ public class UserController {
         return;
     }
 
+    @PatchMapping("/{id}/Admin")
+    public void setPassword(@PathVariable String id, boolean state) {
+        userService.makeAdmin(Long.parseLong(id));
+        return;
+    }
+
     // Add more endpoints as needed
 }

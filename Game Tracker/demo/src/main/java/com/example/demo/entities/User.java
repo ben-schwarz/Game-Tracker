@@ -30,6 +30,9 @@ public class User {
     @Column(name = "password")
     private String password;
 
+    @Column(name = "role")
+    private String role = "USER";
+
     @OneToMany(mappedBy = "user")
     @JsonManagedReference
     private List<Game> games; // List of games the user owns/play
@@ -73,5 +76,13 @@ public class User {
 
     public void setGames(List<Game> games) {
         this.games = games;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
+    public String getRole() {
+        return this.role;
     }
 }

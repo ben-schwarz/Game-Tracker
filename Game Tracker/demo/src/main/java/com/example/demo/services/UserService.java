@@ -5,6 +5,7 @@ import com.example.demo.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class UserService {
@@ -30,6 +31,18 @@ public class UserService {
 
     public void deleteUserById(Long id) {
         userRepository.deleteById(id);
+        return;
+    }
+
+    public void makeAdmin(Long id) {
+        User myUser = userRepository.findById(id).get();
+        myUser.setRole("ADMIN");
+        userRepository.save(myUser);
+
+        /*MerchandiseEntity pantsInDB = repo.findById(pantsId).get();
+        pantsInDB.setPrice(44.99);
+        repo.save(pantsInDB);*/
+
         return;
     }
     // Add more methods as needed

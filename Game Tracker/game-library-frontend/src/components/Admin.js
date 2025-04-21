@@ -36,6 +36,29 @@ function Admin() {
         }
     };
 
+    const handleAdmin = async (id) => {
+        console.log(id);
+        try {
+            const response = await fetch(`${API_ENDPOINT}/users/` + id + '/Admin', {
+                method: "PATCH",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify({id}),
+            });
+
+            const data = await response.text();
+
+            if (response.ok) {
+                alert("Made admin successfully!");
+                window.location.reload()
+            } else {
+                alert(data || "Failed to make account an admin");
+            }
+        } catch (error) {
+            console.error("Patch error:", error);
+            alert("An error occurred. Please try again.");
+        }
+    };
+
     return (
         <div className="App">
             <h1>Accounts</h1>
@@ -44,6 +67,7 @@ function Admin() {
                 <tr>
                     <th scope="col">Id</th>
                     <th scope="col">Username</th>
+                    <th scope="col">Role</th>
                     <th scope="col">Manage</th>
                 </tr>
                 </thead>
@@ -58,8 +82,16 @@ function Admin() {
                                 {data.username}
                             </TableCell>
                             <TableCell>
+                                {data.role}
+                            </TableCell>
+                            <TableCell>
                                 <button onClick={() => handleDelete(data.id)}>
                                     Delete
+                                </button>
+                            </TableCell>
+                            <TableCell>
+                                <button onClick={() => handleAdmin(data.id)}>
+                                    Make Admin
                                 </button>
                             </TableCell>
                         </tr>)
