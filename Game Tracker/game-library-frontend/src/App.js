@@ -70,17 +70,15 @@ function RoutesWithAuth() {
         <Route path="/google-signin" element={<GoogleSignIn />} />
         <Route path="/create-account" element={<CreateAccount />} />
         <Route path="/about" element={<About />} />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/sync" element={<SteamSync/>} />
+        <Route path="/admin" element={<Admin /> } />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/add-game" element={<AddGame />} />
+        <Route path="/friends" element={<Friends />} />
+        <Route path="/library" element={<GameLibrary />} />
 
-        {/* Protected routes */}
-        <Route path="/sync" element={isAuthenticated ? <SteamSync /> : <Navigate to="/signin" />} />
-        <Route path="/library" element={isAuthenticated ? <GameLibrary /> : <Navigate to="/signin" />} />
-        <Route path="/admin" element={isAuthenticated ? <Admin /> : <Navigate to="/signin" />} />
-        <Route path="/settings" element={isAuthenticated ? <Settings /> : <Navigate to="/signin" />} />
-        <Route path="/add-game" element={isAuthenticated ? <AddGame /> : <Navigate to="/signin" />} />
-        <Route path="/friends" element={isAuthenticated ? <Friends /> : <Navigate to="/signin" />} />
 
-        {/* Default route */}
-        <Route path="/" element={<Navigate to={isAuthenticated ? "/library" : "/signin"} />} />
 
         {/* Catch-all */}
         <Route path="*" element={<Navigate to="/signin" />} />

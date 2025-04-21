@@ -137,3 +137,246 @@ Caused by: org.springframework.util.PlaceholderResolutionException: Could not re
 2025-04-20 18:06:52,217 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
 2025-04-20 18:06:52,225 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
 2025-04-20 18:06:52,231 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 2.263 seconds (process running for 2.431)
+2025-04-20 20:10:32,749 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-04-20 20:10:32,777 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 21.0.1 with PID 27225 (/Users/bryanpisciotti/Game-Tracker/Game Tracker/demo/target/classes started by bryanpisciotti in /Users/bryanpisciotti/Game-Tracker/Game Tracker/demo)
+2025-04-20 20:10:32,777 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-20 20:10:32,778 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-20 20:10:32,802 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-20 20:10:32,803 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-20 20:10:33,064 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-20 20:10:33,087 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2025-04-20 20:10:33,475 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-04-20 20:10:33,481 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-20 20:10:33,482 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-20 20:10:33,483 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20 20:10:33,504 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-20 20:10:33,504 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 701 ms
+2025-04-20 20:10:33,580 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-20 20:10:33,608 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-20 20:10:33,624 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-20 20:10:33,750 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-20 20:10:33,765 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-04-20 20:10:33,890 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./GTdb user=SA
+2025-04-20 20:10:33,891 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-04-20 20:10:33,906 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-20 20:10:33,916 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-20 20:10:34,374 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-20 20:10:34,401 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20 20:10:34,615 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-20 20:10:34,636 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-20 20:10:34,637 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-20 20:10:34,775 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-20 20:10:34,873 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./GTdb'
+2025-04-20 20:10:34,905 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-20 20:10:34,915 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-20 20:10:34,922 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-04-20 20:10:34,929 INFO o.s.b.StartupInfoLogger [restartedMain] Started DemoApplication in 2.377 seconds (process running for 2.561)
+2025-04-20 20:10:51,885 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-20 20:10:51,885 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-04-20 20:10:51,886 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-04-20 20:10:51,895 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/games
+2025-04-20 20:10:51,909 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:10:51,910 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-20 20:10:51,915 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /login
+2025-04-20 20:11:14,708 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/games
+2025-04-20 20:11:14,713 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:11:14,714 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-3] Redirecting to http://localhost:8080/login
+2025-04-20 20:11:14,720 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-20 20:11:21,304 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /api/login
+2025-04-20 20:11:21,582 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-5] Authenticated user
+2025-04-20 20:11:21,592 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-5] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@7f80eca, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@3841912c]
+2025-04-20 20:11:21,592 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-5] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@7f80eca, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]
+2025-04-20 20:11:27,872 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/users/all
+2025-04-20 20:11:27,873 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:11:27,874 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-6] Redirecting to http://localhost:8080/login
+2025-04-20 20:11:27,878 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /login
+2025-04-20 20:11:34,247 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /api/users/all
+2025-04-20 20:11:34,251 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:11:34,252 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-8] Redirecting to http://localhost:8080/login
+2025-04-20 20:11:34,356 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /login
+2025-04-20 20:11:35,781 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/users/all
+2025-04-20 20:11:35,782 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:11:35,782 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-10] Redirecting to http://localhost:8080/login
+2025-04-20 20:11:35,786 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /login
+2025-04-20 20:12:05,178 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/users/all
+2025-04-20 20:12:05,182 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:12:05,184 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-2] Redirecting to http://localhost:8080/login
+2025-04-20 20:12:05,278 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /login
+2025-04-20 20:16:16,774 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/games
+2025-04-20 20:16:16,784 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:16:16,789 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-5] Redirecting to http://localhost:8080/login
+2025-04-20 20:16:16,795 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-20 20:16:19,940 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/games
+2025-04-20 20:16:19,942 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:16:19,942 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-7] Redirecting to http://localhost:8080/login
+2025-04-20 20:16:19,952 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /login
+2025-04-20 20:16:37,160 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/games
+2025-04-20 20:16:37,161 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:16:37,161 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-9] Redirecting to http://localhost:8080/login
+2025-04-20 20:16:37,194 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /login
+2025-04-20 20:16:54,881 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/games
+2025-04-20 20:16:54,882 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:16:54,883 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-20 20:16:54,928 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /login
+2025-04-20 20:17:05,052 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/games
+2025-04-20 20:17:05,053 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:17:05,054 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-3] Redirecting to http://localhost:8080/login
+2025-04-20 20:17:05,090 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-20 20:17:10,931 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/games
+2025-04-20 20:17:10,932 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:17:10,933 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-5] Redirecting to http://localhost:8080/login
+2025-04-20 20:17:10,948 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-20 20:17:31,269 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/games
+2025-04-20 20:17:31,270 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:17:31,271 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-7] Redirecting to http://localhost:8080/login
+2025-04-20 20:17:31,273 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /login
+2025-04-20 20:17:34,100 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/games
+2025-04-20 20:17:34,100 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:17:34,101 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-9] Redirecting to http://localhost:8080/login
+2025-04-20 20:17:34,111 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /login
+2025-04-20 20:17:36,747 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/games
+2025-04-20 20:17:36,748 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:17:36,748 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-20 20:17:36,757 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /login
+2025-04-20 20:18:02,947 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/games
+2025-04-20 20:18:02,948 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:18:02,948 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-3] Redirecting to http://localhost:8080/login
+2025-04-20 20:18:02,952 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-20 20:19:18,444 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing POST /api/login
+2025-04-20 20:19:18,547 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-6] Authenticated user
+2025-04-20 20:19:18,548 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-6] Changed session id from A35CF3A19F20842190363D1D81507535
+2025-04-20 20:19:18,548 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-6] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@5deba9b5, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=A35CF3A19F20842190363D1D81507535], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@3841912c]
+2025-04-20 20:19:18,549 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-6] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@5deba9b5, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=A35CF3A19F20842190363D1D81507535], Granted Authorities=[USER]]
+2025-04-20 20:20:46,560 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /api/login
+2025-04-20 20:20:46,662 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-8] Authenticated user
+2025-04-20 20:20:46,663 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-8] Changed session id from B1F62E781FE6A522ABFBD799CF00B4F6
+2025-04-20 20:20:46,663 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-8] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@3ed3a988, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=B1F62E781FE6A522ABFBD799CF00B4F6], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@3841912c]
+2025-04-20 20:20:46,663 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-8] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@3ed3a988, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=B1F62E781FE6A522ABFBD799CF00B4F6], Granted Authorities=[USER]]
+2025-04-20 20:20:49,517 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing POST /api/login
+2025-04-20 20:20:49,617 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-9] Authenticated user
+2025-04-20 20:20:49,617 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-9] Changed session id from 2E083FBF3A559D4700EDD121E9A0EFFC
+2025-04-20 20:20:49,617 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-9] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@366e997e, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=2E083FBF3A559D4700EDD121E9A0EFFC], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@3841912c]
+2025-04-20 20:20:49,617 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-9] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@366e997e, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=2E083FBF3A559D4700EDD121E9A0EFFC], Granted Authorities=[USER]]
+2025-04-20 20:20:58,868 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing POST /api/login
+2025-04-20 20:20:58,969 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-10] Authenticated user
+2025-04-20 20:20:58,969 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-10] Changed session id from F7349057DA0DC531BC2A65A5F806D34D
+2025-04-20 20:20:58,970 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-10] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@537393f5, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=F7349057DA0DC531BC2A65A5F806D34D], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@3841912c]
+2025-04-20 20:20:58,970 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-10] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@537393f5, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=F7349057DA0DC531BC2A65A5F806D34D], Granted Authorities=[USER]]
+2025-04-20 20:21:01,567 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing POST /api/login
+2025-04-20 20:21:01,671 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-1] Authenticated user
+2025-04-20 20:21:01,672 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-1] Changed session id from A15505B89FA06A7620229BDF7092B180
+2025-04-20 20:21:01,672 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-1] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@6cc4c469, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=A15505B89FA06A7620229BDF7092B180], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@3841912c]
+2025-04-20 20:21:01,672 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-1] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@6cc4c469, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=A15505B89FA06A7620229BDF7092B180], Granted Authorities=[USER]]
+2025-04-20 20:21:02,104 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing POST /api/login
+2025-04-20 20:21:02,205 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-2] Authenticated user
+2025-04-20 20:21:02,205 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-2] Changed session id from 7775814CFF1D4107992E02313B5C8024
+2025-04-20 20:21:02,205 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-2] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@3f80f72d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=7775814CFF1D4107992E02313B5C8024], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@3841912c]
+2025-04-20 20:21:02,205 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-2] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@3f80f72d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=7775814CFF1D4107992E02313B5C8024], Granted Authorities=[USER]]
+2025-04-20 20:21:02,935 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /api/login
+2025-04-20 20:21:03,034 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-3] Authenticated user
+2025-04-20 20:21:03,034 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-3] Changed session id from 757BF9E82BADBC6E634421E48C2A9A22
+2025-04-20 20:21:03,034 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-3] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@60d2ebf6, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=757BF9E82BADBC6E634421E48C2A9A22], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@3841912c]
+2025-04-20 20:21:03,035 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-3] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@60d2ebf6, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=757BF9E82BADBC6E634421E48C2A9A22], Granted Authorities=[USER]]
+2025-04-20 20:21:19,222 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing POST /api/login
+2025-04-20 20:21:19,322 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-4] Authenticated user
+2025-04-20 20:21:19,322 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-4] Changed session id from 1B971EB1D6A4AB42CB25EBD266D068C9
+2025-04-20 20:21:19,322 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-4] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@712678b5, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=1B971EB1D6A4AB42CB25EBD266D068C9], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@3841912c]
+2025-04-20 20:21:19,322 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-4] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@712678b5, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=1B971EB1D6A4AB42CB25EBD266D068C9], Granted Authorities=[USER]]
+2025-04-20 20:21:48,216 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing POST /api/login
+2025-04-20 20:21:48,318 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-5] Authenticated user
+2025-04-20 20:21:48,318 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-5] Changed session id from 391ED47CE32B0423B61C024D89E79364
+2025-04-20 20:21:48,318 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-5] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@2046ebb1, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=391ED47CE32B0423B61C024D89E79364], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@3841912c]
+2025-04-20 20:21:48,318 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-5] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@2046ebb1, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=391ED47CE32B0423B61C024D89E79364], Granted Authorities=[USER]]
+2025-04-20 20:23:25,818 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/games
+2025-04-20 20:23:25,820 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:23:25,821 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-7] Redirecting to http://localhost:8080/login
+2025-04-20 20:23:25,825 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /login
+2025-04-20 20:23:28,659 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/games
+2025-04-20 20:23:28,660 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:23:28,661 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-9] Redirecting to http://localhost:8080/login
+2025-04-20 20:23:28,670 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /login
+2025-04-20 20:23:31,426 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/games
+2025-04-20 20:23:31,427 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:23:31,427 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-20 20:23:31,456 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /login
+2025-04-20 20:23:47,027 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/games
+2025-04-20 20:23:47,028 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:23:47,028 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-3] Redirecting to http://localhost:8080/login
+2025-04-20 20:23:47,072 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-20 20:24:05,338 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/games
+2025-04-20 20:24:05,340 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:24:05,340 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-5] Redirecting to http://localhost:8080/login
+2025-04-20 20:24:05,353 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-20 20:24:11,426 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/games
+2025-04-20 20:24:11,427 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:24:11,428 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-7] Redirecting to http://localhost:8080/login
+2025-04-20 20:24:11,454 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /login
+2025-04-20 20:24:29,468 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/games
+2025-04-20 20:24:29,470 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:24:29,471 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-9] Redirecting to http://localhost:8080/login
+2025-04-20 20:24:29,482 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /login
+2025-04-20 20:24:33,881 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/games
+2025-04-20 20:24:33,882 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:24:33,882 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-20 20:24:33,894 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /login
+2025-04-20 20:24:47,656 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/games
+2025-04-20 20:24:47,657 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:24:47,658 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-3] Redirecting to http://localhost:8080/login
+2025-04-20 20:24:47,687 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-20 20:24:51,012 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/games
+2025-04-20 20:24:51,013 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:24:51,014 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-5] Redirecting to http://localhost:8080/login
+2025-04-20 20:24:51,026 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-20 20:26:18,815 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /api/login
+2025-04-20 20:26:18,915 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-8] Authenticated user
+2025-04-20 20:26:18,916 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-8] Changed session id from B8A3F48B2D19C60F4C6C7F86CFF9B1F0
+2025-04-20 20:26:18,916 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-8] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@17a25f1f, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=B8A3F48B2D19C60F4C6C7F86CFF9B1F0], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@3841912c]
+2025-04-20 20:26:18,916 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-8] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@17a25f1f, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=B8A3F48B2D19C60F4C6C7F86CFF9B1F0], Granted Authorities=[USER]]
+2025-04-20 20:26:21,807 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/users/all
+2025-04-20 20:26:21,809 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:26:21,809 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-9] Redirecting to http://localhost:8080/login
+2025-04-20 20:26:21,817 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /login
+2025-04-20 20:26:26,148 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/users/all
+2025-04-20 20:26:26,149 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:26:26,149 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-20 20:26:26,163 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /login
+2025-04-20 20:27:05,955 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /api/login
+2025-04-20 20:27:06,056 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-3] Authenticated user
+2025-04-20 20:27:06,057 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-3] Changed session id from D5F5F8702E397462E566A4BEDC9ED99F
+2025-04-20 20:27:06,057 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository [http-nio-8080-exec-3] Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@efb222d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=D5F5F8702E397462E566A4BEDC9ED99F], Granted Authorities=[USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@3841912c]
+2025-04-20 20:27:06,057 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-3] Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.entities.User@efb222d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=D5F5F8702E397462E566A4BEDC9ED99F], Granted Authorities=[USER]]
+2025-04-20 20:27:57,788 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/games
+2025-04-20 20:27:57,816 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:27:57,817 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-5] Redirecting to http://localhost:8080/login
+2025-04-20 20:27:57,822 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-20 20:28:00,520 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/games
+2025-04-20 20:28:00,521 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:28:00,521 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-7] Redirecting to http://localhost:8080/login
+2025-04-20 20:28:00,537 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /login
+2025-04-20 20:28:12,042 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/games
+2025-04-20 20:28:12,044 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:28:12,044 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-9] Redirecting to http://localhost:8080/login
+2025-04-20 20:28:12,068 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /login
+2025-04-20 20:28:19,538 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/games
+2025-04-20 20:28:19,539 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:28:19,539 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-1] Redirecting to http://localhost:8080/login
+2025-04-20 20:28:19,554 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /login
+2025-04-20 20:28:32,236 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/games
+2025-04-20 20:28:32,238 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:28:32,238 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-3] Redirecting to http://localhost:8080/login
+2025-04-20 20:28:32,265 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /login
+2025-04-20 20:28:52,224 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/users/all
+2025-04-20 20:28:52,228 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:28:52,229 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-5] Redirecting to http://localhost:8080/login
+2025-04-20 20:28:52,234 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /login
+2025-04-20 20:30:35,663 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /api/users/all
+2025-04-20 20:30:35,666 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20 20:30:35,668 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-8] Redirecting to http://localhost:8080/login
+2025-04-20 20:30:35,673 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /login
